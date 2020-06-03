@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="description"
+      content="Fall 2020 - Harvard University, Institute for Applied Computational Science. "
+    />
+    <meta name="author" content="Andrea Porelli" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto:300,400,700"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="../style/tipuesearch/tipuesearch.css"
+    />
+
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="../style/images/favicon.ico"
+    />
+    <link rel="stylesheet" href="../style/css/iacs.css" />
+
+    <title>Harvard AC295 | Schedule</title>
+
+    <style>
+      .navbar {
+        background-color: #6996A0
+      }
+    </style>
+  </head>
+  <body>
+<nav class="navbar navbar-dark navbar-expand-md">
+  <div class="container">
+    <a class="navbar-brand" href="..">
+      <img
+        class="navbar-brand-logo"
+        src="../style/images/logo.png"
+      />
+      <h3 class="course-title">AC295</h3>
+    </a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarsDefault"
+      aria-controls="navbarsDefault"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsDefault">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="../pages/syllabus.html">Syllabus</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../pages/calendars.html">Calendars</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../pages/schedule.html">Schedule</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../pages/materials.html">Materials</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../pages/projects.html">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../pages/faq.html">FAQ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../pages/resources.html">Resources</a>
+        </li>
+        <form
+          class="form-inline my-2"
+          action="../search.html"
+          onsubmit="return validateForm(this.elements['q'].value);"
+        >
+          <div class="input-group input-group-sm">
+            <input
+              class="form-control"
+              type="text"
+              name="q"
+              placeholder="Search Topic"
+            />
+            <div class="input-group-append">
+              <button class="btn btn-default" type="submit">
+                <i class="fas fa-search"></i>
+              </button>
+            </div>
+          </div>
+        </form>
+      </ul>
+    </div>
+    <!-- .collapse navbar-collapse -->
+  </div>
+  <!-- .container -->
+</nav>
+    <main id="content" class="container">
+  <h1>Schedule</h1>
+  <br />
+  <hr />
+  <table>
+<thead>
+<tr>
+<th>Week</th>
+<th>Lecture (Tuesday)</th>
+<th>Lecture (Thursday)</th>
+<th>Assignment (R:release - D:due)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><a href="../lectures/lecture1/">Lecture 1: Introduction</a></td>
+<td><a href="{filename}/resources/resource1/index.md">Resource 1: Set up</a></td>
+<td>No assignment</td>
+</tr>
+<tr>
+<td>2</td>
+<td><a href="../lectures/lecture2/">Lecture 2: Virtual Environments, Virtual Machines, and Containers</a></td>
+<td><a href="../readings/reading1/">Reading Discussion 1</a></td>
+<td>R:EX1</td>
+</tr>
+<tr>
+<td>3</td>
+<td><a href="../lectures/lecture3/">Lecture 3: Kubernetes</a></td>
+<td><a href="../readings/reading2/">Reading Discussion 2</a></td>
+<td>R:EX2 - D:EX1</td>
+</tr>
+<tr>
+<td>4</td>
+<td><a href="../lectures/lecture4/">Lecture 4: Dask</a></td>
+<td><a href="../readings/reading3/">Reading Discussion 3</a></td>
+<td>R:EX3 - D:EX2</td>
+</tr>
+<tr>
+<td>5</td>
+<td><a href="../practicums/practicum1/">Practicum 1</a></td>
+<td><a href="../practicums/practicum1/">Practicum 1</a></td>
+<td>No assignment</td>
+</tr>
+<tr>
+<td>6</td>
+<td><a href="../lectures/lecture5/">Lecture 5: Intro to Transfer Learning: Basic Transfer Learning and SOTA Models</a></td>
+<td><a href="../readings/reading4/">Reading Discussion 4</a></td>
+<td>R:EX4 - D:EX3</td>
+</tr>
+<tr>
+<td>7</td>
+<td><a href="../lectures/lecture6/">Lecture 6: Transfer Learning 2</a></td>
+<td><a href="../readings/reading5/">Reading Discussion 5</a></td>
+<td>R:EX5 - D:EX4</td>
+</tr>
+<tr>
+<td>8</td>
+<td><a href="../lectures/lecture7/">Lecture 7: Distillation and Compression</a></td>
+<td><a href="../readings/reading6/">Reading Discussion 6</a></td>
+<td>R:EX6 - D:EX5</td>
+</tr>
+<tr>
+<td>9</td>
+<td><a href="../practicums/practicum2/">Practicum 2</a></td>
+<td><a href="../practicums/practicum2/">Practicum 2</a></td>
+<td>No assignment</td>
+</tr>
+<tr>
+<td>10</td>
+<td><a href="../lectures/lecture8/">Lecture 8: Introduction and overview of Viz for Deep Models</a></td>
+<td><a href="../readings/reading7/">Reading Discussion 7</a></td>
+<td>R:EX7 - D:EX6</td>
+</tr>
+<tr>
+<td>11</td>
+<td><a href="../lectures/lecture9/">Lecture 9: Convolutional Neural Networks for Image Data</a></td>
+<td><a href="../readings/reading8/">Reading Discussion 8</a></td>
+<td>R:EX8 - D:EX7</td>
+</tr>
+<tr>
+<td>12</td>
+<td><a href="../lectures/lecture10/">Lecture 10: Recurrent Neural Networks for Text Data</a></td>
+<td><a href="../readings/reading9/">Reading Discussion 9</a></td>
+<td>R:EX9 - D:EX8</td>
+</tr>
+<tr>
+<td>13</td>
+<td><a href="../practicums/practicum3/">Practicum 3</a></td>
+<td><a href="../practicums/practicum3/">Practicum 3</a></td>
+<td>No assignment</td>
+</tr>
+<tr>
+<td>14</td>
+<td>Project</td>
+<td>Project</td>
+<td>No assignment</td>
+</tr>
+<tr>
+<td>15</td>
+<td>Project</td>
+<td>Project</td>
+<td>No assignment</td>
+</tr>
+</tbody>
+</table>
+    </main>
+
+<footer class="footer">
+  <div class="container">
+    <span class="text-muted">Copyright 2018 &copy;
+      <a class="text-muted" href="https://iacs.seas.harvard.edu/">Institute for Applied Computational Science</a>
+    </span>
+  </div>
+</footer>     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+      integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
