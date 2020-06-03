@@ -23,6 +23,6 @@ pre {
     height: 300px;
 }
 </style>
-+ [GitHub Repo](https://github.com/Harvard-IACS/2020-AC295/tree/master/content "GitHub Repo")
++ [GitHub Repo](https://github.com/Harvard-IACS/2020F-AC295/tree/master/content "GitHub Repo")
 
 
