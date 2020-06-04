@@ -23,4 +23,4 @@ pre {
     height: 300px;
 }
 </style>
-<iframe src="https://docs.google.com/spreadsheets/d/121M2V3yFK93OFZ7v2TkMC_u0rjqOPyvSfczAV0ELhHw/edit#gid=0" width="1200px" height="550px"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/121M2V3yFK93OFZ7v2TkMC_u0rjqOPyvSfczAV0ELhHw/edit?usp=sharing" width="1200px" height="550px"></iframe>

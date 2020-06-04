@@ -62,7 +62,7 @@ The course is organized in three modules each one 4 weeks long.
 
 2. **Transfer learning and distillation**  
 2a. Intro to Transfer Learning: Basic Transfer Learning and SOTA Models  
-2b. Transfer Learning across Tasks  
+2b. Language Models and Transfer Learning with Text Data  
 2c. Distillation and Compression   
 
 3. **Visualization as investigative tool**   
@@ -79,9 +79,9 @@ Each module is structured in three types of activities and they are: **Lectures*
 
 1. **Reading List** consists in papers, blogs and other reading material that will be released no later than the beginning of each week. This will be the base for all the activities during the week See Readings Guidelines here [link to guidelines](https://docs.google.com/document/d/1TQuPat76TSobGVAxPl4DR-68UMuME5_M66J5rkAUr-k/edit#heading=h.svo9lvagryas).
 
-2. **Lectures** are held on **Tuesdays** from **4:30-5:45** pm in Cruft 309. During this activity we will discuss and summarize the basic concepts of the material covered during the week.
+2. **Lectures** are held on **Tuesdays** from **TBD** pm in **TBD**. During this activity we will discuss and summarize the basic concepts of the material covered during the week.
 
-3. **Reading Discussions** are held on **Thursdays** from **4:30-5:45** pm in in Cruft 309. During this activity, two groups will present to the rest of the class one or two papers from the Reading List and lead the discussion. See Paper Presentation Guidelines here [link to guidelines](https://docs.google.com/document/d/1uvl7lc2cmSO7hLi9akVD704VHshoTVIVye-xKGT-aGQ/edit#heading=h.svo9lvagryas).
+3. **Journal Discussions** are held on **Thursdays** from **TBD** pm in **TBD**. During this activity, two groups will present to the rest of the class one or two papers from the Reading List and lead the discussion. See Paper Presentation Guidelines here [link to guidelines](https://docs.google.com/document/d/1uvl7lc2cmSO7hLi9akVD704VHshoTVIVye-xKGT-aGQ/edit#heading=h.svo9lvagryas).
 
 4. **Practicum** are activities in the form of a project based on the material covered in the module. The students will work in groups and be expected to deliver a complete assignment in 10 days. There will be three practicum.
 
