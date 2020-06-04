@@ -3,7 +3,7 @@ Date: 2019-12-20
 save_as: index.html
 
 <h5>
-Spring 2020 <br><br>
+Fall 2020 <br><br>
 <a href="https://iacs.seas.harvard.edu/people/pavlos-protopapas">Pavlos Protopapas</a>
 </h5>
 
@@ -52,9 +52,9 @@ pre {
 
 <hr>
 <br> 
-<strong>Lectures: Tuesday </strong> and <strong>Thursday</strong> 4:30‐5:45 pm in Cruft 309
+<strong>Lectures: Tuesday </strong> and <strong>Thursday</strong> TBD
 <br> 
-<strong>TFs:</strong> Michael Emanuel, Andrea Porelli, Giulia Zerbini
+<strong>TFs:</strong>
 <br> 
 <strong>Office Hours:</strong> TBD
 <br/>
