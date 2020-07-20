@@ -25,7 +25,7 @@ pre {
 </style>
 
 <br>
-<p>Welcome to AC295. In this course we explore advanced practical data science practices. The course will be divided into three major topics:
+<p>Welcome to AC295 (http://harvard-iacs.github.io/2020F-AC295). In this course we explore advanced practical data science practices. The course will be divided into three major topics:
 <br>
 
 <p><strong>1.</strong>  How to scale a model from a prototype (often in jupyter notebooks) to the cloud. In this module, we cover virtual environments, containers, and virtual machines before learning about microservices and Kubernetes. Along the way, students will be exposed to Dask.<p/> 
