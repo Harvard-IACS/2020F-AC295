@@ -36,7 +36,8 @@ pre {
 
 <hr>
 <br> 
-<strong>Lectures: Tuesday </strong> and <strong>Thursday</strong> 10:30-11:45am 
+<strong>Lectures (online): Tuesday </strong> and <strong>Thursday</strong> 10:30-11:45am 
+ (and possibly depending on timezone of students repeat **Tuesday and Thursday** from 9:00-10:15pm)
 <br> 
 <strong>TFs: Rashmi Banthia, William Palmer, Andrea Porelli  </strong>
 <br> 
@@ -60,32 +61,31 @@ pre {
 
 ##Prerequisites
 
-You are expected to be fluent in programming (Python), statistics knowledge at the level of Stat 110 or above, data science (or machine learning) at the level of AC209A and AC209B. 
+Students are expected to be fluent in programming (Python), statistics knowledge at the level of Stat 110 or above, data science (or machine learning) at the level of AC209A and AC209B. 
 
 <hr>
 <a name='Software'>
 
 ## Software
 
-We will be using a variety of software primarily Python 3, Pytorch, Tensorflow, Docker, etc. More details in class.
+We will be using a variety of software, primarily Python 3, Pytorch, Tensorflow, and Docker. More details in class.
 
 <hr>
 <a name='Topics'>
 
-## Topics
-
 The course is organized in three modules. 
 
 1. **Deploy data science** (integration + scalability)  
-1a. Virtual Environments, Virtual Boxes, and Containers  
-1b. Kubernetes  
-1c. Dask  
+1a. Virtual Environments and Virtual Boxes
+1b. Containers  
+1c. Kubernetes  
+1d. Dask  
 
 2. **Transfer learning and distillation**  
 2a. Intro to Transfer Learning: basics and Convolutional Neural Networks (CNNs) review
 2b. Transfer Learning for Images and SOTA Models
 2c. Language Models and Transfer Learning with Text Data  
-2d. Transformers and Attention
+2d. Attention and Transformers 
 2e. Distillation and Compression   
 
 3. **Visualization as investigative tool**   
@@ -98,13 +98,13 @@ The course is organized in three modules.
 
 ## Course Activities
 
-Each module is structured in three types of activities and they are: **Lectures**, **Reading Discussion**, and **Practicum**. Each activity requires the students to complete different assignments in the form of exercise/homework, discussions, reading assignment, and presentation (see Assignments below). During the first  weeks of each module, students will attend Lecture on Tuesday and Reading Discussion on Thursday. The last week of each module will be Practicum. **Attendance is mandatory**.
+Each module is structured in three types of activities: **Lectures**, **Reading Discussion**, and **Practicum**. Each activity requires the students to complete different assignments in the form of exercise/homework, discussions, reading assignments, and presentations (see Assignments below). During the first weeks of each module, students will attend a lecture on Tuesday and reading discussion on Thursday. The last week of each module will be Practicum. **Attendance is mandatory**.
 
-1. **Reading List** consists in papers, blogs and other reading material that will be released no later than the beginning of each week. This will be the base for all the activities during the week See Readings Guidelines here [link to guidelines](https://docs.google.com/document/d/1TQuPat76TSobGVAxPl4DR-68UMuME5_M66J5rkAUr-k/edit#heading=h.svo9lvagryas).
+1. **Reading List** consists of papers, blogs, and other reading material that will be released no later than the beginning of each week. This will be the base for all the activities during the week. See Readings Guidelines here [link to guidelines](https://docs.google.com/document/d/1TQuPat76TSobGVAxPl4DR-68UMuME5_M66J5rkAUr-k/edit#heading=h.svo9lvagryas).
 
-2. **Lectures** are held online **Tuesdays** from 10:30-11:45am (and possibly depedning on timezone of students repeat **Tuesday** from 9:00-10:15pm). During this activity we will discuss and summarize the basic concepts of the material covered during the week.
+2. **Lectures** are held online **Tuesdays** from 10:30-11:45am (and possibly depending on timezone of students repeat **Tuesday** from 9:00-10:15pm). During this activity, we will discuss and summarize the basic concepts of the material covered during the week.
 
-3. **Journal Discussions** are held online on **Thursdays** from 10:30-11:45am. During this activity, two groups will present to the rest of the class one or two papers from the Reading List and lead the discussion. See Paper Presentation Guidelines here [link to guidelines](https://docs.google.com/document/d/1uvl7lc2cmSO7hLi9akVD704VHshoTVIVye-xKGT-aGQ/edit#heading=h.svo9lvagryas).
+3. **Journal Discussions** are held online on **Thursdays** from 10:30-11:45 am (and possibly depending on timezone of students repeat **Thursday** from 9:00-10:15 pm). During this activity, two groups will present one or two papers from the Reading List to the rest of the class and lead the discussion. See Paper Presentation Guidelines here [link to guidelines](https://docs.google.com/document/d/1uvl7lc2cmSO7hLi9akVD704VHshoTVIVye-xKGT-aGQ/edit#heading=h.svo9lvagryas).
 
 4. **Practicum** are activities in the form of a project based on the material covered in the module. The students will work in groups and be expected to deliver a complete assignment in 10 days. There will be two practicums.
 
