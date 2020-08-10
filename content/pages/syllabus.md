@@ -25,7 +25,7 @@ pre {
 </style>
 
 <br>
-<p>Welcome to AC295 (http://harvard-iacs.github.io/2020F-AC295). In this course we explore advanced data science practices. The course is divided into three major topics: </p>
+<p>Welcome to AC295. In this course we explore advanced data science practices. The course is divided into three major topics: </p>
 <br>
 
 <p><strong>1.</strong>  How to scale a model from a prototype (often in jupyter notebooks) to the cloud. In this module, we cover virtual environments, containers, and virtual machines before learning about containers and Kubernetes. Along the way, students will be exposed to Dask.</p> 
@@ -72,6 +72,7 @@ We will be using a variety of software, primarily Python 3, Pytorch, Tensorflow,
 
 <hr>
 <a name='Topics'>
+## Topics
 
 The course is organized in three modules. 
 
@@ -122,11 +123,11 @@ The **final grade** will be calculated using the following weights for each assi
 
 **Exercises**
 
-There are 8 exercises to complete. They will be released at the end of each regular week Lecture and due the next one. The exercises are graded on a scale 1 to 5, where 5 is the highest grade.
+There are eight (8) exercises to complete. They will be released at the end of each regular week *Lecture* and due a week later. The exercises are graded on a scale 1 to 5, where 5 is the highest grade.
 
 **Discussion Forum** 
 
-There will be a discussion forum the day before the Reading Discussion based on what the reading content. The question will cover some of the material from Reading List and students will access them using Ed Platform on Canvas (select Ed from tab on course main page). 
+There will be a discussion forum the day before the *Reading Discussion* on Thursday based on the reading from *Reading List*. All discussions will be on the Ed Platform  (select Ed from the tab on the canvas course's main page). 
 
 **Presentations**
 
@@ -134,7 +135,7 @@ At every Reading Discussion, groups will present the reading material assigned a
 
 **Practicums**
 
-There will be two practimum during the first two modules (see schedule for details).
+There will be two practica during the first two modules (see the schedule for details).
 
 **Final Projects**
 
@@ -157,8 +158,8 @@ There will be a final group project due during Exams period encompassing all the
 
 For questions about exercise, course content, package installation, and after you have tried to troubleshoot yourselves, the process to get help is:
 
-1. Go to **Office Hours**, this is the best way to get help. 
-2. Post the question in **Ed Forum** and hopefully your peers will answer.
+1. Go to **Office Hours**; this is the best way to get help. 
+2. Post the question in **Ed Forum**, and hopefully, your peers will answer.
 
 <hr>
 <a name='Course-Policies'>
@@ -167,7 +168,7 @@ For questions about exercise, course content, package installation, and after yo
 
 **Collaboration Policy**
 
-We encourage you to talk and discuss the assignments with your fellow students.  Discussion is encouraged. Presentation during Reading Discussion, Practicum and Projects are group activities. 
+We encourage students to talk and discuss the assignments with their fellow students.  Discussion is encouraged. Presentation during Reading Discussion, Practicum, and Projects are group activities. 
 
 **Communication from Staff to Students**
 
@@ -180,5 +181,8 @@ Ethical behavior is an important trait of a Data Scientist, from ethically handl
 **Accommodations for students with disabilities**
 
 Students needing academic adjustments or accommodations because of a documented disability must present their Faculty Letter from the [Accessible Education Office](http://www.aeo.fas.harvard.edu/)(AEO) and speak with Pavlos by the end of the third week of the term: Friday, September 18.  Failure to do so may result in us being unable to respond in a timely manner. All discussions will remain confidential.
+
+**Accommodations for students with disabilities**
+
 
 <hr>
