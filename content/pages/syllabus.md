@@ -25,26 +25,27 @@ pre {
 </style>
 
 <br>
-<p>Welcome to AC295 (http://harvard-iacs.github.io/2020F-AC295). In this course we explore advanced practical data science practices. The course will be divided into three major topics:
+<p>Welcome to AC295 (http://harvard-iacs.github.io/2020F-AC295). In this course we explore advanced practical data science practices. The course will be divided into three major topics: </p>
 <br>
 
-<p><strong>1.</strong>  How to scale a model from a prototype (often in jupyter notebooks) to the cloud. In this module, we cover virtual environments, containers, and virtual machines before learning about microservices and Kubernetes. Along the way, students will be exposed to Dask.<p/> 
+<p><strong>1.</strong>  How to scale a model from a prototype (often in jupyter notebooks) to the cloud. In this module, we cover virtual environments, containers, and virtual machines before learning about microservices and Kubernetes. Along the way, students will be exposed to Dask.</p> 
 
-<p><strong>2.</strong>  How to use existing models for transfer learning. Transfer learning is a machine learning method where a model developed for a task is reused as the starting point for a model on a second task. It is a popular approach in deep learning where pre-trained models are used as the starting point on computer vision and natural language processing tasks. This can be very important, given the vast compute and time resources required to develop neural network models on these problems and given the huge jumps in skill that these models can provide to related problems. In this part of the course we will examine various pre-existing models and techniques in transfer learning.<p/>
+<p><strong>2.</strong>  How to use existing models for transfer learning. Transfer learning is a machine learning method where a model developed for a task is reused as the starting point for a model on a second task. It is a popular approach in deep learning where pre-trained models are used as the starting point on computer vision and natural language processing tasks. This can be very important, given the vast compute and time resources required to develop neural network models on these problems and given the huge jumps in skill that these models can provide to related problems. In this part of the course we will examine various pre-existing models and techniques in transfer learning.</p>
 
-<p><strong>3.</strong>  In the third part we will be introducing a number of intuitive visualization tools for investigating properties and diagnosing issues of models. We will be demonstrating a number of visualization tools ranging from the well established (like saliency maps) to recent ones that have appeared in https://distill.pub.<p/>
+<p><strong>3.</strong>  In the third part we will be introducing a number of intuitive visualization tools for investigating properties and diagnosing issues of models. We will be demonstrating a number of visualization tools ranging from the well established (like saliency maps) to recent ones that have appeared in https://distill.pub.</p>
 
 <hr>
 <br> 
 <strong>Lectures: Tuesday </strong> and <strong>Thursday</strong> 10:30-11:45am 
 <br> 
-<strong>TFs:</strong>
+<strong>TFs: Rashmi Banthia, William Palmer, Andrea Porelli  </strong>
 <br> 
 <strong>Office Hours:</strong> TBD
 <br/>
 
+<hr>
 
-## List of Contents
+##List of Contents
 - [Prerequisites](#Prerequisites)
 - [Software](#Software)
 - [Topics](#Topics)
@@ -57,7 +58,7 @@ pre {
 <hr>
 <a name='Prerequisites'>
 
-## Prerequisites
+##Prerequisites
 
 You are expected to be fluent in programming (Python), statistics knowledge at the level of Stat 110 or above, data science (or machine learning) at the level of AC209A and AC209B. 
 
