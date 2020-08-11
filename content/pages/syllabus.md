@@ -174,6 +174,19 @@ We encourage students to talk and discuss the assignments with their fellow stud
 
 Class announcements will be through **Ed Forum**.
 
+
+**Diversity and Inclusion Statement** 
+Data Science, like many fields of science, has historically only been represented by a small sliver of the population. Recent initiatives have attempted to overcome some barriers to entry. We would like to attempt to discuss diversity in Data Science from time to time where appropriate and possible.
+
+Please contact me (in person or electronically) or submit anonymous feedback if you have any suggestions to improve the quality of the course materials. The best way to provide anonymous feedback is to use Ed, which allows you to provide comments anonymously.
+
+Furthermore, I would like to create a learning environment for my students that supports a diversity of thoughts, perspectives and experiences, and honors your identities (including race, gender, class, sexuality, religion, ability, etc.) To help accomplish this:
+
+If you have a name and/or set of pronouns that differ from those that appear in your official Harvard records, please let me know!
+If you feel like your performance in the class is being impacted by your experiences outside of class, please don’t hesitate to come and talk with me. I want to be a resource for you. Remember that you can also submit anonymous feedback (which will lead to me making a general announcement to the class, if necessary to address your concerns). If you prefer to speak with someone outside of the course, you may find helpful resources at the Harvard Office of Diversity and Inclusion.
+We (like many people) am still in the process of learning about diverse perspectives and identities. If something was said in class (by anyone) that made you feel uncomfortable, please talk to us about it. (Again, anonymous feedback is always an option.)
+As a participant in course discussions, you should also strive to honor the diversity of your classmates.
+
 **Academic Honesty**
 
 Ethical behavior is an important trait of a Data Scientist, from ethically handling data to attribution of code and work of others. Thus, in AC295 we give a strong emphasis to Academic Honesty. As a student your best guidelines are to be reasonable and fair. We encourage teamwork for problem sets, but you should not split the assignments and you should work on all the problems together.
