@@ -1,6 +1,6 @@
 Title: Syllabus
 Slug: syllabus
-Date: 2019-12-20
+Date: 20120-8-12
 
 <style>
 pre {
