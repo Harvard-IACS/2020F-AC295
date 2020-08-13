@@ -1,6 +1,6 @@
 Title: Syllabus
 Slug: syllabus
-Date: 20120-8-12
+Date: 2020-8-12
 
 <style>
 pre {
@@ -25,7 +25,11 @@ pre {
 </style>
 
 <br>
-<p>Welcome to AC295. In this course we explore advanced data science practices. The course is divided into three major topics: </p>
+<p>Welcome to AC295: advanced practical data science. 
+
+The course will be divided into three major topics: 
+
+</p>
 <br>
 
 <p><strong>1.</strong>  How to scale a model from a prototype (often in jupyter notebooks) to the cloud. In this module, we cover virtual environments, containers, and virtual machines before learning about containers and Kubernetes. Along the way, students will be exposed to Dask.</p> 
