@@ -1,6 +1,6 @@
 Title: Schedule
 Slug: schedule
-Date: 2020-08-10
+Date: 2020-08-11
 
 
 |Week|Lecture (Tuesday)|Lecture (Thursday)|Assignment (R:release - D:due)|
