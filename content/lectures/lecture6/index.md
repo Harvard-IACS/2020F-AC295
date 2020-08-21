@@ -7,5 +7,6 @@ Tags: Transfer Learning, Style Transfer Model, Image Classification and Transfer
 
 
 ## Jupyter Notebooks
-
+<!--
 - [Lecture 6: Transfer Learning 2]({filename}notebook/lecture6.ipynb) 
+-->

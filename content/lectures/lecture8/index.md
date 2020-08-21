@@ -15,9 +15,10 @@ Tags: Debug Models through Visualization, LIME, Saliency Map, Activation Maximiz
 ## Jupyter Notebooks
 
 <!--
-- [Lecture 8: Introduction and overview of Viz for Deep Models]({filename}notebook/lecture8.ipynb) 
+- [Lecture 8: Introduction and overview of Viz for Deep Models]({filename}notebook/lecture8.ipynb)
+--> 
 
 ## Colab Hands-On
-
+<!--
 - [Lecture 8: Introduction and overview of Viz for Deep Models](https://colab.research.google.com/drive/149Nt0DI1x_oYXp8rcZ-37boLeEMgl6O_#scrollTo=7Wp6X6T5bjB0)
 -->

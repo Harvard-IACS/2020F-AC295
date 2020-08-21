@@ -1,16 +1,16 @@
 Week,Lecture (Tuesday),Lecture (Thursday),Assignment (R:release - D:due)
-1,Lecture 1: Introduction,Resource 1: Set up,No assignment
-2,"Lecture 2: Virtual Environments, Virtual Boxes, and Containers",Reading Discussion 1,R:EX1
+1,No Class,"Lecture 1: Introduction: Virtual Enviroments and Virtual Boxes",No assignment
+2,"Lecture 2: Containers",Reading Discussion 1,R:EX1
 3,Lecture 3: Kubernetes,Reading Discussion 2,R:EX2 - D:EX1
 4,Lecture 4: Dask,Reading Discussion 3,R:EX3 - D:EX2
-5,Practicum 1,Practicum 1,No assignment
-6,Lecture 5: Intro to Transfer Learning: Basic Transfer Learning and SOTA Models,Reading Discussion 4,R:EX4 - D:EX3
-7,Lecture 6: Transfer Learning across Tasks,Reading Discussion 5,R:EX5 - D:EX4
-8,Lecture 7: Distillation and Compression,Reading Discussion 6,R:EX6 - D:EX5
-9,Practicum 2,Practicum 2,No assignment
-10,Lecture 8: Introduction and Overview of Viz for Deep Models,Reading Discussion 7,R:EX7 - D:EX6
-11,Lecture 9: Convolutional Neural Networks for Image Data,Reading Discussion 8,R:EX8 - D:EX7
-12,Lecture 10: Recurrent Neural Networks for Text Data,Reading Discussion 9,R:EX9 - D:EX8
-13,Practicum 3,Practicum 3,No assignment
-14,Project,Project,No assignment
-15,Project,Project,No assignment
+5,Practicum 1: End to end art search engine,Practicum 1,No assignment
+6,Lecture 5: Intro to Transfer Learning: basics and CNNs review,Reading Discussion 4,R:EX4 - D:EX3
+7,Lecture 6: Transfer Learning for Images and SOTA Models,Reading Discussion 5,R:EX5 - D:EX4
+8,Lecture 7: Language Models and Transfer Learning for Text,Reading Discussion 6,R:EX6 - D:EX5
+9,Lecture 8: Attention and Transformers,Reading Discussion 7,R:EX7 - D:EX6
+10,Lecture 9: Distillation and Compression,Reading Discussion 8,R:EX8 - D:EX7
+11,Practicum 2,R:EX9 - D:EX8
+12,Lecture 10: Introduction and Overview of Viz for Deep Models: lime and shapley,"Lecture 11: CNNs for Image Data, Activation Maximization and Saliency Maps",No assignment
+13,Lecture 12: Attention for Debugging Language Models,No Class: Thanksgiving,No assignment
+14,Final Project,Final Project,No assignment
+14,Final Project,Final Project Presentation,No assignment

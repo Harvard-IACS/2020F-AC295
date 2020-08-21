@@ -6,5 +6,6 @@ Slug: lecture11
 Tags: CCNs, Activation Maximization, Saliency Maps
 
 ## Slides
-
+<!--
 - [PDF | Lecture 11:  CNNs for Image Data, Activation Maximization and Saliency Maps]({attach}presentation/lecture11.pdf)
+-->

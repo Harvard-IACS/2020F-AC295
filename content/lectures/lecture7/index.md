@@ -6,5 +6,6 @@ Slug: lecture7
 Tags: Transfer Learning, Distillation, Compression
 
 ## Jupyter Notebooks
-
+<!--
 - [Lecture 7: Distillation and Compression]({filename}notebook/lecture7.ipynb) 
+-->

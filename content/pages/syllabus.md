@@ -109,7 +109,7 @@ Each module is structured in three types of activities: **Lectures**, **Reading 
 
 2. **Lectures** are held online **Tuesdays** from 10:30-11:45am (and possibly depending on timezone of students repeat **Tuesday** from 9:00-10:15pm). During this activity, we will discuss and summarize the basic concepts of the material covered during the week.
 
-3. **Journal Discussions** are held online on **Thursdays** from 10:30-11:45 am (and possibly depending on timezone of students repeat **Thursday** from 9:00-10:15 pm). During this activity, two groups will present one or two papers from the Reading List to the rest of the class and lead the discussion. See Paper Presentation Guidelines here [link to guidelines](https://docs.google.com/document/d/1uvl7lc2cmSO7hLi9akVD704VHshoTVIVye-xKGT-aGQ/edit#heading=h.svo9lvagryas).
+3. **Journal Discussions** are held online on **Thursdays** from 10:30-11:45 am (and possibly depending on timezone of students repeat **Thursday** from 9:00-10:15 pm). During this activity, two groups will present one paper each from the Reading List to the rest of the class and lead the discussion. See Paper Presentation Guidelines here [link to guidelines](https://docs.google.com/document/d/1uvl7lc2cmSO7hLi9akVD704VHshoTVIVye-xKGT-aGQ/edit#heading=h.svo9lvagryas).
 
 4. **Practicum** are activities in the form of a project based on the material covered in the module. The students will work in groups and be expected to deliver a complete assignment in 10 days. There will be two practicums.
 
@@ -201,5 +201,7 @@ Students needing academic adjustments or accommodations because of a documented 
 
 **Accommodations for students with disabilities**
 
+## Previous Material 
+[2020 Spring](https://harvard-iacs.github.io/2020-AC295/pages/schedule.html)
 
 <hr>
