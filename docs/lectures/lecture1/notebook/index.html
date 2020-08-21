@@ -1262,7 +1262,45 @@ h6:hover .anchor-link {
 .highlight .vg { color: #19177C } /* Name.Variable.Global */
 .highlight .vi { color: #19177C } /* Name.Variable.Instance */
 .highlight .vm { color: #19177C } /* Name.Variable.Magic */
-.highlight .il { color: #666666 } /* Literal.Number.Integer.Long */</style><div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+.highlight .il { color: #666666 } /* Literal.Number.Integer.Long */</style>
+<style type="text/css">
+/* Temporary definitions which will become obsolete with Notebook release 5.0 */
+.ansi-black-fg { color: #3E424D; }
+.ansi-black-bg { background-color: #3E424D; }
+.ansi-black-intense-fg { color: #282C36; }
+.ansi-black-intense-bg { background-color: #282C36; }
+.ansi-red-fg { color: #E75C58; }
+.ansi-red-bg { background-color: #E75C58; }
+.ansi-red-intense-fg { color: #B22B31; }
+.ansi-red-intense-bg { background-color: #B22B31; }
+.ansi-green-fg { color: #00A250; }
+.ansi-green-bg { background-color: #00A250; }
+.ansi-green-intense-fg { color: #007427; }
+.ansi-green-intense-bg { background-color: #007427; }
+.ansi-yellow-fg { color: #DDB62B; }
+.ansi-yellow-bg { background-color: #DDB62B; }
+.ansi-yellow-intense-fg { color: #B27D12; }
+.ansi-yellow-intense-bg { background-color: #B27D12; }
+.ansi-blue-fg { color: #208FFB; }
+.ansi-blue-bg { background-color: #208FFB; }
+.ansi-blue-intense-fg { color: #0065CA; }
+.ansi-blue-intense-bg { background-color: #0065CA; }
+.ansi-magenta-fg { color: #D160C4; }
+.ansi-magenta-bg { background-color: #D160C4; }
+.ansi-magenta-intense-fg { color: #A03196; }
+.ansi-magenta-intense-bg { background-color: #A03196; }
+.ansi-cyan-fg { color: #60C6C8; }
+.ansi-cyan-bg { background-color: #60C6C8; }
+.ansi-cyan-intense-fg { color: #258F8F; }
+.ansi-cyan-intense-bg { background-color: #258F8F; }
+.ansi-white-fg { color: #C5C1B4; }
+.ansi-white-bg { background-color: #C5C1B4; }
+.ansi-white-intense-fg { color: #A1A6B2; }
+.ansi-white-intense-bg { background-color: #A1A6B2; }
+
+.ansi-bold { font-weight: bold; }
+</style>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Lecture-4:-Dask">Lecture 4: Dask<a class="anchor-link" href="#Lecture-4:-Dask">¶</a></h1>
@@ -1396,7 +1434,7 @@ h6:hover .anchor-link {
 <li><strong> Public cloud allows teams to collaborate: </strong> Public cloud allows you to share data and collaborate more easily.</li>
 </ul>
 <h2 id="Public-cloud-basics">Public cloud basics<a class="anchor-link" href="#Public-cloud-basics">¶</a></h2><p>Cloud Computing refers to both the applications delivered as services over the Internet and the hardware/systems software in the datacenters that provide those services. The datacenter hardware and software is what we will call a <em>Cloud</em>. When a Cloud is made available to the public (through pay-as-you-go services), it is called a Public Cloud; the service being sold from the datacenter to the provider such as Microsoft, Google, Amazon or IBM (which might or not might be the same) called computing utility [<a href="#Footnotes">1</a>] and the one sold from provider to user that we will refer as a web application or more in general a service. Current examples of public computing services include AmazonWeb Services, Google AppEngine, and Microsoft Azure. A differenet deployment system from the public is the private. The private Cloud refers to internal datacenters of a business or other organization that are not made available to the public. The figure below shows the roles of the people as users or providers of different layers of the Cloud.</p>
-<p><img alt="cloud_basics_from_article_1" src="img/cloud_basics.PNG" /></p>
+<p><img alt="cloud_basics_from_article_1" src="img/cloud_basics.PNG"></p>
 <p><a><center> Image adapted from Armbust et al., 2009 </center></a></p>
 <p>The National Institute of Standards and Technology (NIST) defines cloud as [<a href="#Footnotes">2</a>]:</p>
 <p><em>“a model for enabling ubiquitous, convenient, on-demand network access to a shared pool of configurable computing resources (e.g., networks, servers, storage, applications, and services) that can be rapidly provisioned and released with minimal management effort or service provider interaction.”</em></p>
@@ -1409,7 +1447,7 @@ h6:hover .anchor-link {
 <li>On Demand Self Service</li>
 </ol>
 <p>You can think about cloud computing as composition of three different areas/models:</p>
-<p><img alt="Iass_Paas_SaaS_image" src="img/Iass_Paas_SaaS_image.PNG" /></p>
+<p><img alt="Iass_Paas_SaaS_image" src="img/Iass_Paas_SaaS_image.PNG"></p>
 <ul>
 <li>The Infrastructure as a Service (<strong>IaaS</strong>) is a cloud of resources provided to users. IaaS provides the basic functionality of storage and computing as service consisting in network servers, storage systems, network instrumentality, and information headquarters.</li>
 <li>The Platform as a Service (<strong>PaaS</strong>) is a development environment provided as a service. These advanced levels of alternative service can be designed by end-users. PaaS offers virtualized servers that multiple users work on applications or grow innovative applications, with no having to concern about keeping operating systems, server hardware, equalization or weight power calculation.</li>
@@ -1473,33 +1511,33 @@ h6:hover .anchor-link {
 <ul>
 <li>Go to <a href="https://azure.microsoft.com/en-us/">https://azure.microsoft.com/en-us/</a> and click on <strong><code>free account</code></strong></li>
 </ul>
-<p><img alt="free_account" src="img/getting_started_free_account.PNG" /></p>
+<p><img alt="free_account" src="img/getting_started_free_account.PNG"></p>
 <ul>
 <li>Click on <strong><code>start free</code></strong></li>
 </ul>
-<p><img alt="start_free" src="img/getting_started_start_free.PNG" /></p>
+<p><img alt="start_free" src="img/getting_started_start_free.PNG"></p>
 <ul>
 <li>Create an Azure account: choose name, set password, add security info, add credit/debit card information </li>
 </ul>
-<p><img alt="create_azure_account" src="img/getting_started_create_azure_account.PNG" /></p>
+<p><img alt="create_azure_account" src="img/getting_started_create_azure_account.PNG"></p>
 <h3 id="Login-to-Azure-Dashboard-and-create-your-first-service">Login to Azure Dashboard and create your first service<a class="anchor-link" href="#Login-to-Azure-Dashboard-and-create-your-first-service">¶</a></h3><p>Once you have created your Azure free account, you just need to go to the Azure portal and login using the credentials.</p>
 <ul>
 <li>Go to <a href="https://portal.azure.com/">https://portal.azure.com/</a> and sign-in to your account to access Azure Dashboard (note: familiarize with the relevant services?)</li>
 </ul>
-<p><img alt="select_account" src="img/login_to_azure_select_account.PNG" /></p>
+<p><img alt="select_account" src="img/login_to_azure_select_account.PNG"></p>
 <p>You are now ready to deploy your first public cloud service! Follow the next steps:</p>
 <ul>
 <li>Click on <strong><code>create a resource</code></strong></li>
 </ul>
-<p><img alt="create_resource" src="img/login_to_azure_create_resource.PNG" /></p>
+<p><img alt="create_resource" src="img/login_to_azure_create_resource.PNG"></p>
 <ul>
 <li>Write on the bar the name of the service you want to subscribe to. For convinience we show the Storage Account that will we use in the next guide. Type  <strong><code>storage account</code></strong> in the bar and then press  <strong><code>enter</code></strong></li>
 </ul>
-<p><img alt="select_resource" src="img/login_to_azure_select_resource.PNG" /></p>
+<p><img alt="select_resource" src="img/login_to_azure_select_resource.PNG"></p>
 <ul>
 <li>You will be directed to the a view containing a short description of the service, as well as links to the documentation and pricing information. Click on <strong><code>create</code></strong> to start deploying the services.</li>
 </ul>
-<p><img alt="create_storage_account" src="img/login_to_azure_create_storage_account.PNG" /></p>
+<p><img alt="create_storage_account" src="img/login_to_azure_create_storage_account.PNG"></p>
 <ul>
 <li>Next, complete entering the following intormation and click on <strong><code>create</code></strong> once finished:  <ul>
 <li>Account name: enter lowercase and globally unique name (e.g. "mycloudstorageplayground")  </li>
@@ -1517,21 +1555,21 @@ h6:hover .anchor-link {
 </ul>
 </li>
 </ul>
-<p><img alt="storage_setup" src="img/login_to_azure_create_storage_account_setup.PNG" /></p>
+<p><img alt="storage_setup" src="img/login_to_azure_create_storage_account_setup.PNG"></p>
 <ul>
 <li>Once the service is deployed, you will see on your Dashbord a white box with your storage account's name. Click on the box with your <strong><code>storage_account_name</code></strong> to access the storage account interface.</li>
 </ul>
-<p><img alt="storage_account_dashboard" src="img/login_to_azure_storage_account_dashboard.PNG" /></p>
+<p><img alt="storage_account_dashboard" src="img/login_to_azure_storage_account_dashboard.PNG"></p>
 <ul>
 <li>The storage account interface shows a summary of the settings defined in the previous steps and other utilities. On the top right box you can see the region from which your service is deployied, the type of storage you have choosen as well as the type of contents you decided to store (i.e. Locally Reduntant Storage which stands for data you might use a lot and the server will know). You can also find the id of your subrscition below erased for privacy purposes.</li>
 </ul>
-<p><img alt="storage_account_interface" src="img/login_to_azure_storage_account_interface.PNG" /></p>
+<p><img alt="storage_account_interface" src="img/login_to_azure_storage_account_interface.PNG"></p>
 <h3 id="Create-API-key-to-use-Microsoft-Azure-service">Create API key to use Microsoft Azure service<a class="anchor-link" href="#Create-API-key-to-use-Microsoft-Azure-service">¶</a></h3><p>We have shown you how to login to the Azure portal and how to create a Storage Account, now it is time to retrieve the key necessary to use it. We will use the key in the next guide to make requests to Microsoft Azure using Application Programming Interface (API). The API functions as an intermediary that allows two applications to talk to each other, in our case our software and Azure SaaS. The API key allows Azure to identifies your subscription account and to bill it (unless you switch your free account to a pay as you go account your account will not be billed).</p>
 <ul>
 <li>To retrieve your Storage Account key, start from going to the dashboard and clicking on the box with your <strong><code>storage_account_name</code></strong>. Then, click on on <strong><code>Access keys</code></strong> on the side bar.</li>
 <li>Copy storage account name and key1, clicking on the icon in the left, and paste them in the script below. </li>
 </ul>
-<p><img alt="access_and_keys" src="img/create_api_access_and_keys.PNG" /></p>
+<p><img alt="access_and_keys" src="img/create_api_access_and_keys.PNG"></p>
 <h3 id="Script:-create-a-set-of-keys-for-using-Azure-services">Script: create a set of keys for using Azure services<a class="anchor-link" href="#Script:-create-a-set-of-keys-for-using-Azure-services">¶</a></h3><p>In the next guides, we are going to poke around with several Azure services. We reccomend you to create all the services on the list below and to save the name you will give to each service and primary key in the cell below. Here is a complete list of the services that you should create:</p>
 <ul>
 <li><strong>Storage Account</strong></li>
@@ -1640,7 +1678,7 @@ h6:hover .anchor-link {
 <div class="input_area">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1">#import library to display notebook as HTML</span>
 <span class="kn">import</span> <span class="nn">os</span>
-<span class="kn">from</span> <span class="nn">IPython.core.display</span> <span class="kn">import</span> <span class="n">HTML</span>
+<span class="kn">from</span> <span class="nn">IPython.core.display</span> <span class="k">import</span> <span class="n">HTML</span>
 
 <span class="c1">#path to .ccs style script</span>
 <span class="n">cur_path</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">dirname</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">abspath</span><span class="p">(</span><span class="s2">"__file__"</span><span class="p">))</span>
