@@ -41,7 +41,7 @@ The course will be divided into three major topics:
 <hr>
 <br> 
 <strong>Lectures (online): Tuesday </strong> and <strong>Thursday</strong> 10:30-11:45am 
- (and possibly depending on timezone of students repeat **Tuesday and Thursday** from 9:00-10:15pm)
+ (and possibly depending on timezone of students repeat **Tuesday and Thursday** from 6:00-7:15pm)
 <br> 
 <strong>TFs: Rashmi Banthia, William Palmer, Andrea Porelli  </strong>
 <br> 
