@@ -1,4 +1,4 @@
-Title: Lecture 5
+Title: Lecture 5: Intro to Transfer Learning
 Category: lectures
 Date: 2020-01-07
 Author: Andrea Porelli
