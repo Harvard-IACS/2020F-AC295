@@ -42,9 +42,6 @@ pre {
 </style>
 <br>
 
-<font color='red'><b>Office Hours</b></font> for any questions/concerns about the course  (Prof. Protopapas) - Tuesday (08/18) 5-6 EST  and Thursday (08/20) 9-10 EST <a href="http://harvard.zoom.us/my/pavlosprotopapas">Link to join </a>
-
-<hr>
 
 <p>Welcome to AC295: advanced practical data science. 
 
