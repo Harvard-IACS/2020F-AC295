@@ -70,3 +70,8 @@ The course will be divided into three major topics:
 <br/>
 
 <hr>
+
+
+## Previous Material 
+[2020 Spring](https://harvard-iacs.github.io/2020-AC295/pages/schedule.html)
+
