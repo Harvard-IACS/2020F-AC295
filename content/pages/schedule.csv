@@ -9,7 +9,7 @@ Week,Lecture (Tuesday),Lecture (Thursday),Assignment (R:release - D:due)
 8,Lecture 7: Language Models and Transfer Learning for Text,Reading Discussion 6,R:EX6 - D:EX5
 9,Lecture 8: Attention and Transformers,Reading Discussion 7,R:EX7 - D:EX6
 10,Lecture 9: Distillation and Compression,Reading Discussion 8,R:EX8 - D:EX7
-11,Practicum 2,R:EX9 - D:EX8
+11,Practicum 2,Practicum 2,D:EX8
 12,Lecture 10: Introduction and Overview of Viz for Deep Models: lime and shapley,"Lecture 11: CNNs for Image Data, Activation Maximization and Saliency Maps",No assignment
 13,Lecture 12: Attention for Debugging Language Models,No Class: Thanksgiving,No assignment
 14,Final Project,Final Project,No assignment

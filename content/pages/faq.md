@@ -40,4 +40,4 @@ pre {
 
 # Auditors
 - **Can I audit this course?**
-  - This course is based on frequent interactions among staff and student. Given the nature of the of the class, it makes no sense to audit it.
+  - This course is based on frequent interactions among staff and students. Given the nature of the of the class, it makes no sense to audit it.
