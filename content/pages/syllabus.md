@@ -25,6 +25,11 @@ pre {
 </style>
 
 <br>
+
+
+For logistical issues please email the helpline:  [ac295f2020@gmail.com](ac295f2020@gmail.com)
+<hr>
+
 <p>Welcome to AC295: advanced practical data science. 
 
 The course will be divided into three major topics: 
