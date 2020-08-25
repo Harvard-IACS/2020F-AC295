@@ -28,10 +28,10 @@ pre {
 
 <hr>
 
-A major part of this course is a group project. You will work in small teams on a web-based application that allows you to work on a project about a topic of your own choosing. You will acquire the data, design and implement your application using the tools and techniques learned during the course.
+A major part of this course is a group project. You will work in small teams on a project about a topic of your own choosing from those taught in class. You will acquire the data, design and implement your application using the tools and techniques learned during the course.
 
 ## Team
-You will work closely with other classmates in a 3-4 person project team. Team formation will be discussed in class at the beginning of the course and will conclude before the end of the first module.
+You will work closely with other classmates in a 3-4 person project team. Team formation will be discussed in class at the beginning of the course.
 
 ## Milestones
 The project consists of several milestones that need to be submitted on the specified due dates as listed below.

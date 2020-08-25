@@ -152,7 +152,6 @@ There will be a final group project due during Exams period encompassing all the
 |Presentations| 15%|
 |Practicums|  45%|
 |Final Projects|  20%|
-
 |**Total**|  **100%**|
 
 <hr>

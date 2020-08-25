@@ -7,8 +7,7 @@ Tags: Debug Models through Visualization, LIME, Saliency Map, Activation Maximiz
 
 
 ## Slides
-<!--
-
+<!-- 
 - [Lecture 8: Introduction and overview of Viz for Deep Models]({attach}presentation/lecture8.slides.html) 
 -->
 
