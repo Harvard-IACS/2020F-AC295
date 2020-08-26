@@ -41,7 +41,7 @@ pre {
   }
 </style>
 
-For logistical issues please email the helpline:  [ac295f2020@gmail.com](ac295f2020@gmail.com) 
+**Course helpline:**  [ac295f2020@gmail.com](ac295f2020@gmail.com) 
 <hr>
 
 <p>Welcome to AC295: advanced practical data science. 
@@ -62,7 +62,7 @@ The course will be divided into three major topics:
 <strong>Lectures (online): Tuesday </strong> and <strong>Thursday</strong> 10:30-11:45am 
  (and possibly depending on timezone of students repeat **Tuesday and Thursday** from 6:00-7:15pm)
 <br> 
-<strong>TFs: Rashmi Banthia, William Palmer, Andrea Porelli  </strong>
+<strong>TFs: Rashmi Banthia, William Palmer, Andrea Porelli, Shivas Jayaram  </strong>
 <br> 
 <strong>Office Hours:</strong> TBD
 <br/>
