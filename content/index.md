@@ -6,7 +6,7 @@ save_as: index.html
 Fall 2020 <br><br>
 <a href="https://iacs.seas.harvard.edu/people/pavlos-protopapas">Pavlos Protopapas</a>
 </h5>
-
+Office Hours: Thursdays 8:00 - 9:30 PM EST (Office hours begin 09/08)
 <hr>
 
 <style>
@@ -62,9 +62,23 @@ The course will be divided into three major topics:
 <strong>Lectures (online): Tuesday </strong> and <strong>Thursday</strong> 10:30-11:45am 
  (and possibly depending on timezone of students repeat **Tuesday and Thursday** from 6:00-7:15pm)
 <br> 
-<strong>TFs: Rashmi Banthia, William Palmer, Andrea Porelli, Shivas Jayaram  </strong>
+
 <br> 
-<strong>Office Hours:</strong> TBD
+<strong>Office Hours: (all times EST)  </strong>  (Office hours begin 09/08)
+
+|TF | Day| Office Hours| 
+|-----|-----|-----|
+|William Palmer| Sunday | 10:00-11:30 AM |
+|Shivas Jayaram | Sunday | 8:00 - 9:30 PM |
+|Hai Bui|  Wednesday | 11:00 AM - 12:30 PM |
+|Javid Lakha|  Wednesday | 4:30 - 6:00 PM |
+|Andrea Porelli| Thursday | 1:00 -2:30 PM |
+|Rashmi Banthia| Friday |  8:30-10:00 AM|
+|Yujiao Chen|  Saturday | 11:00 AM - 12:30 PM |
+
+ 
+
+
 <br/>
 
 <hr>
