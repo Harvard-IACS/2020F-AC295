@@ -155,8 +155,8 @@ There will be a final group project due during Exams period encompassing all the
 |Discussion Forum|  10%|
 |Exercises| 10%|
 |Presentations| 15%|
-|Practicums|  45%|
-|Final Projects|  20%|
+|Practicums|  40%|
+|Final Projects|  25%|
 |**Total**|  **100%**|
 
 <hr>
