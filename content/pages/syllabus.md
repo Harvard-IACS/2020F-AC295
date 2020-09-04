@@ -25,6 +25,11 @@ pre {
 </style>
 
 <br>
+
+
+**Course helpline:** [ac295f2020@gmail.com](ac295f2020@gmail.com)
+<hr>
+
 <p>Welcome to AC295: advanced practical data science. 
 
 The course will be divided into three major topics: 
@@ -150,8 +155,8 @@ There will be a final group project due during Exams period encompassing all the
 |Discussion Forum|  10%|
 |Exercises| 10%|
 |Presentations| 15%|
-|Practicums|  45%|
-|Final Projects|  20%|
+|Practicums|  40%|
+|Final Projects|  25%|
 |**Total**|  **100%**|
 
 <hr>
@@ -179,16 +184,35 @@ Class announcements will be through **Ed Forum**.
 
 
 **Diversity and Inclusion Statement** 
-Data Science, like many fields of science, has historically only been represented by a small sliver of the population. Recent initiatives have attempted to overcome some barriers to entry. We would like to attempt to discuss diversity in Data Science from time to time where appropriate and possible.
 
+Data Science, like many fields of science, has historically only been represented by a small portion of the population. This is despite some of the pioneers in computer science being from groups that are historically and presently underrepresented. Whenever possible, I will try to highlight the contributions that people have been from a variety of backgrounds. To start, here is a list of some really nice references.:
+<br>
+<ul>
+  <li><a href="https://en.wikipedia.org/wiki/Ada_Lovelace">Ada Lovelace</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Grace_Hopper">Grace Hopper</a></li>
+  <li><a href="https://blog.newrelic.com/culture/black-history-month-computer-science-infographic/">7 Black Pioneers in Computer Science</a></li>
+</ul>  
+
+I welcome any additions to this list you may have! 
+<br> 
+
+In an ongoing effort to foster a more inclusive environment in computer science, recent initiatives have attempted to overcome some barriers to entry for underrepresented groups:
+<ul>
+  <li><a href="https://www.madewithcode.com/">Made w/ Code</a></li>
+  <li><a href="https://womendrivendev.org/">Women Driven Development</a></li>
+  <li><a href="https://bongohive.co.zm/">BongoHive</a></li>
+</ul>
+
+Like the list above, this list is not exhaustive, but I welcome any additions and suggestions you may have.
+I would like to attempt to discuss diversity in data science from time to time where appropriate and possible.
 Please contact me (in person or electronically) or submit anonymous feedback if you have any suggestions to improve the quality of the course materials. The best way to provide anonymous feedback is to use Ed, which allows you to provide comments anonymously.
-
 Furthermore, I would like to create a learning environment for my students that supports a diversity of thoughts, perspectives and experiences, and honors your identities (including race, gender, class, sexuality, religion, ability, etc.) To help accomplish this:
-
-If you have a name and/or set of pronouns that differ from those that appear in your official Harvard records, please let me know!
-If you feel like your performance in the class is being impacted by your experiences outside of class, please don’t hesitate to come and talk with me. I want to be a resource for you. Remember that you can also submit anonymous feedback (which will lead to me making a general announcement to the class, if necessary to address your concerns). If you prefer to speak with someone outside of the course, you may find helpful resources at the Harvard Office of Diversity and Inclusion.
-We (like many people) am still in the process of learning about diverse perspectives and identities. If something was said in class (by anyone) that made you feel uncomfortable, please talk to us about it. (Again, anonymous feedback is always an option.)
-As a participant in course discussions, you should also strive to honor the diversity of your classmates.
+<ul>
+	<li>If you have a name and/or set of pronouns that differ from those that appear in your official Harvard records, please let me know!</li>
+	<li>If you feel like your performance in the class is being impacted by your experiences outside of class, please don’t hesitate to come and talk with me. I want to be a resource for you. Remember that you can also submit anonymous feedback (which will lead to me making a general announcement to the class if necessary to address your concerns). If you prefer to speak with someone outside of the course, you may find helpful resources at the <a href="https://diversity.college.harvard.edu/">Harvard Office of Diversity and Inclusion.</a></li>
+	<li>I (like many people) am still in the process of learning about diverse perspectives and identities. If something was said in class (by anyone) that made you feel uncomfortable, please talk to me about it. (Again, anonymous feedback is always an option.)</li>
+	<li>As a participant in course discussions, you should also strive to honor the diversity of your classmates.</li>
+</ul>
 
 **Academic Honesty**
 

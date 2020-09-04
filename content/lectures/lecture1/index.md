@@ -7,10 +7,10 @@ Tags: Advanced Practical Data Science
 
 ## Slides
 
-<!--
+
 - [Lecture 1: Introduction | PDF]({attach}presentation/lecture1.pdf) 
 - [Lecture 1: Introduction | PPTX]({attach}presentation/lecture1.pptx)
--->
+
 
 ## Forms
 
