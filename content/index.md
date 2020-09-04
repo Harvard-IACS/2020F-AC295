@@ -9,6 +9,12 @@ Fall 2020 <br><br>
 Office Hours: Thursdays 8:00 - 9:30 PM EST (Office hours begin 09/08)
 <hr>
 
+<h5>FAQ</h5>
+- **Can I audit this course?**<br/>
+  This course is based on frequent interactions among teaching staff and students. Given the nature of the class and remote teaching, our policy is not to allow auditors.
+
+<hr>
+
 <style>
 pre {
   background-color: #F5F5F5;
