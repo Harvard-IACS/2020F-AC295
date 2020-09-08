@@ -15,7 +15,7 @@ Tags:Containers, Docker
 - [Demo 2: Web-db dockerized]({filename}demos/lec2_demo_webdb.ipynb)
 
 ## Files 
-- [syllabus.md]({attach}demos/syllabus.txt)
+- [syllabus.txt]({attach}demos/syllabus.txt)
 - [hello_world_server.py]({attach}demos/hello_world_server.py)
 - [hello_world_db.py]({attach}demos/hello_world_server.py)
 - [Dockerfile_db]({attach}demos/Dockerfile_db)
