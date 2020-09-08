@@ -7,9 +7,9 @@ Tags:Containers, Docker
 
 ## Slides
 
-<!-- - [Lecture 2: Virtual Environments, Virtual Machines, and Containers | PDF]({attach}presentation/lecture2.pdf) 
+- [Lecture 2: Virtual Environments, Virtual Machines, and Containers | PDF]({attach}presentation/lecture2.pdf) 
 - [Lecture 2: Virtual Environments, Virtual Machines, and Containers | PPTX]({attach}presentation/lecture2.pptx)
---> 
+
 ## Demo 
 - [Demo 1: Getting started with dockers]({filename}demos/lec2_demo_getstart.ipynb) 
 - [Demo 2: Web-db dockerized]({filename}demos/lec2_demo_webdb.ipynb)
