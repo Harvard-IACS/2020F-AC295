@@ -79,7 +79,9 @@ MARKUP = ['md', 'ipynb']
 
 PLUGIN_PATHS = ['plugins']
 
-PLUGINS = ['ipynb.markup', 'tipue_search']
+# CHANGE THIS FOR PAVLOS MACHINE 
+# PLUGINS = ['ipynb.markup', 'tipue_search']
+PLUGINS = [ 'tipue_search']
 
 IGNORE_FILES = ['.#*', '.ipynb_checkpoints', 'README.md', "*.html", "__pycache__", "*.pdf", "*.pptx", ".placeholder", ".DS_Store", "*.ipynb-meta", "*.csv", "*.json", "*.txt", "*.xmls"]
 
