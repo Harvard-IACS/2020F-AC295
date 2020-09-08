@@ -17,7 +17,7 @@ Tags:Containers, Docker
 ## Files 
 - [syllabus.txt]({attach}demos/syllabus.txt)
 - [hello_world_server.py]({attach}demos/hello_world_server.py)
-- [hello_world_db.py]({attach}demos/hello_world_server.py)
+- [hello_world_db.py]({attach}demos/hello_world_db.py)
 - [Dockerfile_db]({attach}demos/Dockerfile_db)
 - [Dockerfile_server]({attach}demos/Dockerfile_server)
 
