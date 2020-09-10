@@ -11,15 +11,15 @@ Tags:Containers, Docker
 - [Lecture 2: Virtual Environments, Virtual Machines, and Containers | PPTX]({attach}presentation/lecture2.pptx)
 
 ## Demo 
-- [Demo 1: Getting started with dockers]({filename}demos/lec2_demo_getstart.ipynb) 
-- [Demo 2: Web-db dockerized]({filename}demos/lec2_demo_webdb.ipynb)
+- [Demo 1: Getting started with dockers]({filename}demos1/lec2_demo_getstart.ipynb) 
+- [Demo 2: Web-db dockerized]({filename}demos2/lec2_demo_webdb.ipynb)
 
 ## Files 
-- [syllabus.txt]({attach}demos/syllabus.txt)
-- [hello_world_server.py]({attach}demos/hello_world_server.py)
-- [hello_world_db.py]({attach}demos/hello_world_db.py)
-- [Dockerfile_db]({attach}demos/Dockerfile_db)
-- [Dockerfile_server]({attach}demos/Dockerfile_server)
+- [syllabus.txt]({attach}demos2/syllabus.txt)
+- [hello_world_server.py]({attach}demos2/hello_world_server.py)
+- [hello_world_db.py]({attach}demos2/hello_world_db.py)
+- [Dockerfile_db]({attach}demos2/Dockerfile_db)
+- [Dockerfile_server]({attach}demos2/Dockerfile_server)
 
 
 
