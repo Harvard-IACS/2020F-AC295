@@ -7,7 +7,7 @@ Tags: Kupernetes, Helm, Loft, Skaffold
 
 
 
-## READING DISCUSSION 2: Kubernetes	 
+## Kubernetes	 
 [9/10 not a complete list]
 
 #### Expository	
@@ -26,8 +26,14 @@ Tags: Kupernetes, Helm, Loft, Skaffold
 - [PDF available through Canvas | *Kubernetes: Up and Running*](https://canvas.harvard.edu/courses/71552/files?preview=9362061) - This is a book - Any two chapters
 - [Helm, The package manager for Kubernetes](https://helm.sh/docs/)
 
+#### Research 
+- [Firmament: Fast, Centralized Cluster Scheduling at Scale](https://www.usenix.org/system/files/conference/osdi16/osdi16-gog.pdf)
+- [Poseidon-Firmament Scheduler](https://v1-17.docs.kubernetes.io/docs/concepts/extend-kubernetes/poseidon-firmament-alternate-scheduler/)
+- [DEMOCRATIZING PRODUCTION-SCALE DISTRIBUTED DEEP LEARNING](https://arxiv.org/pdf/1811.00143.pdf)
+- [Serverless inferencing on Kubernetes](https://arxiv.org/pdf/2007.07366.pdf)
 
-####   Use case and other interesting reads
+
+####   Use cases and other interesting reads
 - [Skaffold](https://skaffold.dev/)
 - [Loft](https://github.com/loft-sh/loft)	
 - [LOFT Kubernetes Virtual Clusters as Development Environments] (https://loft.sh/blog/kubernetes-virtual-clusters-as-development-environments/)
@@ -36,4 +42,5 @@ Tags: Kupernetes, Helm, Loft, Skaffold
 
 - [Antifragility in Kubernetes](https://itnext.io/antifragility-in-kubernetes-bcac9ec5baaf)
 
-
+<br>
+*Choose from Research and Use cases*
