@@ -21,8 +21,8 @@ Tags: Kubernetes, Helm, Loft, Skaffold
 - [Antifragility in Kubernetes](https://itnext.io/antifragility-in-kubernetes-bcac9ec5baaf)	
 
 #### Longer Reads 
-- [Kubernetes: Up and Running (ch.12-14)](https://drive.google.com/file/d/1KvCyqJs5LOzkDVD3fepjCtnsoLy70ji7/view?usp=sharing) 
-- [Hands-On Docker for Microservices with Python: design, deploy, and operate a complex system with multiple microservices using Docker and Kubernetes (ch.5-7)](https://drive.google.com/file/d/1BKQCyGIRM2aeUiIIAuOXxUEPxChuR_Kv/view?usp=sharing)
+- [Kubernetes: Up and Running (ch.12-14)](https://canvas.harvard.edu/files/10573839/download?download_frd=1) 
+- [Hands-On Docker for Microservices with Python: design, deploy, and operate a complex system with multiple microservices using Docker and Kubernetes (ch.5-7)](https://canvas.harvard.edu/files/10573838/download?download_frd=1)
 
 #### Research 
 - [Firmament: Fast, Centralized Cluster Scheduling at Scale](https://www.usenix.org/system/files/conference/osdi16/osdi16-gog.pdf)
