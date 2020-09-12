@@ -48,7 +48,7 @@ The course will be divided into three major topics:
 <strong>Lectures (online): Tuesday </strong> and <strong>Thursday</strong> 10:30-11:45am 
  (and possibly depending on timezone of students repeat **Tuesday and Thursday** from 6:00-7:15pm)
 <br> 
-<strong>TFs: Rashmi Banthia, William Palmer, Andrea Porelli  </strong>
+<strong>TFs: Rashmi Banthia, William Palmer, Andrea Porelli, Shivas Jayaram, Hai Bui, Javid Lakha, Yujiao Chen</strong>
 <br> 
 <strong>Office Hours:</strong> TBD
 <br/>
@@ -86,21 +86,21 @@ We will be using a variety of software, primarily Python 3, Pytorch, Tensorflow,
 The course is organized in three modules. 
 
 1. **Deploy data science** (integration + scalability)  
-1a. Virtual Environments and Virtual Boxes
+1a. Virtual Environments and Virtual Boxes  
 1b. Containers  
 1c. Kubernetes  
 1d. Dask  
 
 2. **Transfer learning and distillation**  
-2a. Intro to Transfer Learning: basics and Convolutional Neural Networks (CNNs) review
-2b. Transfer Learning for Images and SOTA Models
+2a. Intro to Transfer Learning: basics and Convolutional Neural Networks (CNNs) review  
+2b. Transfer Learning for Images and SOTA Models  
 2c. Language Models and Transfer Learning with Text Data  
-2d. Attention and Transformers 
-2e. Distillation and Compression   
+2d. Attention and Transformers  
+2e. Distillation and Compression  
 
 3. **Visualization as investigative tool**   
-3a. Introduction and Overview of Viz for Deep Models: lime and shapley 
-3b. CNNs for Image Data, Activation Maximization and Saliency Maps
+3a. Introduction and Overview of Viz for Deep Models: lime and shapley  
+3b. CNNs for Image Data, Activation Maximization and Saliency Maps  
 3c. Attention for Debugging Language Models  
 
 <hr>

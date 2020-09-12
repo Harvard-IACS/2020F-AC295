@@ -3,9 +3,7 @@ Category: readings
 Date: 2020-09-10
 Author: Pavlos Protopapas
 Slug: reading2
-Tags: Kupernetes, Helm, Loft, Skaffold
-
-
+Tags: Kubernetes, Helm, Loft, Skaffold
 
 ## Kubernetes	 
 [9/10 not a complete list]
@@ -17,30 +15,28 @@ Tags: Kupernetes, Helm, Loft, Skaffold
 - [Kubeflow](https://www.kubeflow.org/docs/about/kubeflow/)
 - [Benefits of Kubernetes](https://medium.com/platformer-blog/benefits-of-kubernetes-e6d5de39bc48)
 - [Why Kubernetes is a Considerable Step Forward in Software Products Development?](https://stfalcon.com/en/blog/post/kubernetes)	
--  [Local Kubernetes Development](https://towardsdatascience.com/kubernetes-local-development-the-correct-way-1bc4b11570d8)
-- [*Containers and Cloud: From LXC to Docker to Kubernetes*](http://www.ce.uniroma2.it/courses/sdcc1617/articoli/bernstein_cc2014.pdf)	
-
-
+- [Local Kubernetes Development](https://towardsdatascience.com/kubernetes-local-development-the-correct-way-1bc4b11570d8)
+- [Containers and Cloud: From LXC to Docker to Kubernetes](http://www.ce.uniroma2.it/courses/sdcc1617/articoli/bernstein_cc2014.pdf)
+- [Kubernetes Virtual Clusters for AI/ML Experiments](https://loft.sh/blog/kubernetes-virtual-clusters-for-ai-ml-experiments/))
+- [Antifragility in Kubernetes](https://itnext.io/antifragility-in-kubernetes-bcac9ec5baaf)	
 
 #### Longer Reads 
-- [PDF available through Canvas | *Kubernetes: Up and Running*](https://canvas.harvard.edu/courses/71552/files?preview=9362061) - This is a book - Any two chapters
-- [Helm, The package manager for Kubernetes](https://helm.sh/docs/)
+- [Kubernetes: Up and Running (ch.12-14)](https://drive.google.com/file/d/1KvCyqJs5LOzkDVD3fepjCtnsoLy70ji7/view?usp=sharing) 
+- [Hands-On Docker for Microservices with Python: design, deploy, and operate a complex system with multiple microservices using Docker and Kubernetes (ch.5-7)](https://drive.google.com/file/d/1BKQCyGIRM2aeUiIIAuOXxUEPxChuR_Kv/view?usp=sharing)
 
 #### Research 
 - [Firmament: Fast, Centralized Cluster Scheduling at Scale](https://www.usenix.org/system/files/conference/osdi16/osdi16-gog.pdf)
-- [Poseidon-Firmament Scheduler](https://v1-17.docs.kubernetes.io/docs/concepts/extend-kubernetes/poseidon-firmament-alternate-scheduler/)
-- [DEMOCRATIZING PRODUCTION-SCALE DISTRIBUTED DEEP LEARNING](https://arxiv.org/pdf/1811.00143.pdf)
+- [Democratizing Production: Scale Distributed Deep Learning](https://arxiv.org/pdf/1811.00143.pdf)
 - [Serverless inferencing on Kubernetes](https://arxiv.org/pdf/2007.07366.pdf)
 
+#### Use cases and other interesting reads
+- [Kubeflow: Build an ML pipeline](https://docs.agilestacks.com/article/gkyq26pzmr-creating-an-ml-pipeline)
+- [Poseidon-Firmament, The package for Kubernetes Scheduler](https://v1-17.docs.kubernetes.io/docs/concepts/extend-kubernetes/poseidon-firmament-alternate-scheduler/)
+- [Helm, The package manager for Kubernetes](https://helm.sh/docs/)
+- [Skaffold, The package for Kubernetes local development](https://skaffold.dev/)
+- [Loft, The package for Kubernetes virtual cluster](https://github.com/loft-sh/loft)	
+- [Virtual Cluster: Sandboxes for ML experiment](https://loft.sh/use-cases/ai-machine-learning-experiments)
 
-####   Use cases and other interesting reads
-- [Skaffold](https://skaffold.dev/)
-- [Loft](https://github.com/loft-sh/loft)	
-- [LOFT Kubernetes Virtual Clusters as Development Environments] (https://loft.sh/blog/kubernetes-virtual-clusters-as-development-environments/)
-
-- [Virtual Cluster | Sandboxes for ML experiment](https://loft.sh/use-cases/ai-machine-learning-experiments)
-
-- [Antifragility in Kubernetes](https://itnext.io/antifragility-in-kubernetes-bcac9ec5baaf)
 
 <br>
 *Choose from Research and Use cases*
