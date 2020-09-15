@@ -6,7 +6,6 @@ Slug: lecture3
 Tags: Containers, Cloud, Kubernetes
 
 ## Slides
-<!--
+
 - [Lecture 3: Kubernetes | PDF]({attach}presentation/lecture3.pdf) 
 - [Lecture 3: Kubernetes | PPTX]({attach}presentation/lecture3.pptx)
--->
