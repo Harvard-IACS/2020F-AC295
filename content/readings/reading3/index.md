@@ -8,16 +8,14 @@ Tags: Dask, Python, Parallel Processing
 ## Selected Readings
 #### Expository	
 - [Why every Data Scientist should use Dask?](https://towardsdatascience.com/why-every-data-scientist-should-use-dask-81b2b850e15b)
+
 - [Pandas, Dask or PySpark? What Should You Choose for Your Dataset?](https://medium.com/datadriveninvestor/pandas-dask-or-pyspark-what-should-you-choose-for-your-dataset-c0f67e1b1d36) 
+
 - [Dask Tutorial](https://tutorial.dask.org/)
 
 - [Dask hyperparameter optimization](https://stsievert.com/blog/2019/09/27/dask-hyperparam-opt/ )
 
-
-
 - [t-SNE with GPUs](https://medium.com/rapids-ai/tsne-with-gpus-hours-to-seconds-9d9c17c941db)
-
-
 
 #### Use Case 
 - [ReproduceIt reddit word count](https://extrapolations.dev/blog/2015/07/reproduceit-reddit-word-count-dask/)
