@@ -33,7 +33,10 @@ and Task Scheduling](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.8
 - [Composable Multi-Threading and Multi-Processing for
 Numeric Libraries](https://conference.scipy.org/proceedings/scipy2018/pdfs/anton_malakhov.pdf)
 
-- [A performance comparison of Dask and Apache Spark for data-intensive neuroimaging pipelines](https://conference.scipy.org/proceedings/scipy2019/pdfs/scott_sievert.pdf
+- [A performance comparison of Dask and Apache Spark for data-intensive neuroimaging pipelines](https://arxiv.org/pdf/1907.13030.pdf)
+
+- [Better and faster hyperparameter optimization with
+Dask](https://conference.scipy.org/proceedings/scipy2019/pdfs/scott_sievert.pdf
 )
 
 - [Machine Learning in Python: Main developments and technology trends in data science, machine learning, and artificial intelligence](https://arxiv.org/pdf/2002.04803.pdf) - Section 4
