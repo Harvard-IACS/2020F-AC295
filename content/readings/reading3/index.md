@@ -17,7 +17,7 @@ Tags: Dask, Python, Parallel Processing
 
 - [t-SNE with GPUs](https://medium.com/rapids-ai/tsne-with-gpus-hours-to-seconds-9d9c17c941db)
 
-#### Use Case 
+#### Use Cases *
 - [ReproduceIt reddit word count](https://extrapolations.dev/blog/2015/07/reproduceit-reddit-word-count-dask/)
 
 - [Deploy Dask using SSH cluster](https://docs.dask.org/en/latest/setup/ssh.html) - There's a corresponding video - [Build a dask cluster from couple of laptops at home](https://www.youtube.com/watch?v=Db4Gk18bs50&feature=emb_err_woyt)  
@@ -26,7 +26,7 @@ Tags: Dask, Python, Parallel Processing
 
 - [Dask use cases](https://stories.dask.org/en/latest/)   - Choose one
 
-#### Research 
+#### Research  *
 - [Dask: Parallel Computation with Blocked algorithms
 and Task Scheduling](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.825.5314&rep=rep1&type=pdf)
 
@@ -37,3 +37,7 @@ Numeric Libraries](https://conference.scipy.org/proceedings/scipy2018/pdfs/anton
 )
 
 - [Machine Learning in Python: Main developments and technology trends in data science, machine learning, and artificial intelligence](https://arxiv.org/pdf/2002.04803.pdf) - Section 4
+
+
+<br>
+* Next presentations, select from Research or Use Cases
