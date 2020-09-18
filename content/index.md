@@ -6,7 +6,7 @@ save_as: index.html
 Fall 2020 <br><br>
 <a href="https://iacs.seas.harvard.edu/people/pavlos-protopapas">Pavlos Protopapas</a>
 </h5>
-Office Hours: Thursdays 8:00 - 9:30 PM EST (Office hours begin 09/08)
+Office Hours: By appointment
 <hr>
 
 <h5>FAQ</h5>
