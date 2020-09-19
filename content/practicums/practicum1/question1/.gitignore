@@ -1,4 +1,0 @@
-# python build artifacts
-build/
-dist/
-*.egg-info

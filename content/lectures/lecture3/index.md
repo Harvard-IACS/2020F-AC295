@@ -1,7 +1,7 @@
 Title: Lecture 3: Kubernetes
 Category: lectures
-Date: 2020-01-07
-Author: Andrea Porelli
+Date: 2020-09-15
+Author: Pavlos Protopapas
 Slug: lecture3
 Tags: Containers, Cloud, Kubernetes
 
