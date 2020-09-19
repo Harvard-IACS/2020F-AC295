@@ -76,8 +76,8 @@ The course will be divided into three major topics:
 |-----|-----|-----|
 |William Palmer| Sunday | 10:00-11:30 AM |
 |Shivas Jayaram | Sunday | 8:00 - 9:30 PM |
+|Javid Lakha|  Monday | 4:30 - 6:00 PM |
 |Hai Bui|  Wednesday | 11:00 AM - 12:30 PM |
-|Javid Lakha|  Wednesday | 4:30 - 6:00 PM |
 |Andrea Porelli| Thursday | 1:00 -2:30 PM |
 |Rashmi Banthia| Friday |  8:30-10:00 AM|
 |Yujiao Chen|  Saturday | 11:00 AM - 12:30 PM |
