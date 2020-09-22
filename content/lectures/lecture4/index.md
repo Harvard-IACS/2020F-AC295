@@ -1,7 +1,7 @@
 Title: Lecture 4: Dask
 Category: lectures
-Date: 2020-01-07
-Author: Andrea Porelli
+Date: 2020-09-22
+Author: Rashmi Banthia
 Slug: lecture4
 Tags: Dask, Python, Parallel Processing
 
