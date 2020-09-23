@@ -9,12 +9,6 @@ Fall 2020 <br><br>
 Office Hours: By appointment
 <hr>
 
-<h5>FAQ</h5>
-- **Can I audit this course?**<br/>
-  This course is based on frequent interactions among teaching staff and students. Given the nature of the class and remote teaching, our policy is not to allow auditors.
-
-<hr>
-
 <style>
 pre {
   background-color: #F5F5F5;
@@ -77,6 +71,7 @@ The course will be divided into three major topics:
 |William Palmer| Sunday | 10:00-11:30 AM |
 |Shivas Jayaram | Sunday | 8:00 - 9:30 PM |
 |Javid Lakha|  Monday | 4:30 - 6:00 PM |
+|Faras Sadek|  Monday | 6:00 - 7:30 PM |
 |Hai Bui|  Wednesday | 11:00 AM - 12:30 PM |
 |Andrea Porelli| Thursday | 1:00 -2:30 PM |
 |Rashmi Banthia| Friday |  8:30-10:00 AM|
