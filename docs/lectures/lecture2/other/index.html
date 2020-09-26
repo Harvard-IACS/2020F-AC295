@@ -1261,7 +1261,19 @@ h6:hover .anchor-link {
 .highlight .il { color: #666666 } /* Literal.Number.Integer.Long */</style><div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Docker-Cheatsheet">Docker Cheatsheet<a class="anchor-link" href="#Docker-Cheatsheet">¶</a></h1><hr />
+<h1 id="Docker-Cheatsheet">Docker Cheatsheet<a class="anchor-link" href="#Docker-Cheatsheet">¶</a></h1><ul>
+<li><a href="#docker-image">docker image</a></li>
+<li><a href="#docker-container">docker container</a></li>
+<li><a href="#docker-network">docker network</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<hr />
+<p><a id="docker-image"></a></p>
 <h1 id="docker-image">docker image<a class="anchor-link" href="#docker-image">¶</a></h1><h2 id="Build-an-image-from-a-Dockerfile">Build an image from a Dockerfile<a class="anchor-link" href="#Build-an-image-from-a-Dockerfile">¶</a></h2>
 <pre><code>Linux
 docker image build -t IMAGE_NAME:VERSION PATH_TO_DIRECTORY</code></pre>
@@ -1294,7 +1306,14 @@ docker image pull IMAGE_NAME:VERSION</code></pre>
 <p><strong>Push to the registry</strong></p>
 <pre><code>Linux
 docker image push IMAGE_NAME:VERSION</code></pre>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <hr />
+<p><a id="docker-container"></a></p>
 <h1 id="docker-container">docker container<a class="anchor-link" href="#docker-container">¶</a></h1><h2 id="Create---but-do-not-start---a-container-from-an-image">Create - but do not start - a container from an image<a class="anchor-link" href="#Create---but-do-not-start---a-container-from-an-image">¶</a></h2>
 <pre><code>Linux
 docker container create IMAGE_NAME:VERSION</code></pre>
@@ -1383,8 +1402,15 @@ docker container logs --tail N CONTAINER_NAME</code></pre>
 <p><strong>Print all subsequent logs</strong></p>
 <pre><code>Linux
 docker container logs -f CONTAINER_NAME</code></pre>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <hr />
-<h1 id="docker-network">docker network<a class="anchor-link" href="#docker-network">¶</a></h1><h2 id="Create-a-network">Create a network<a class="anchor-link" href="#Create-a-network">¶</a></h2>
+<h1 id="docker-network">docker network<a class="anchor-link" href="#docker-network">¶</a></h1><p><a id="docker-network"></a></p>
+<h2 id="Create-a-network">Create a network<a class="anchor-link" href="#Create-a-network">¶</a></h2>
 <pre><code>Linux
 docker network create NETWORK_NAME</code></pre>
 <h1 id="List-networks">List networks<a class="anchor-link" href="#List-networks">¶</a></h1>
@@ -1400,10 +1426,16 @@ docker network connect NETWORK_NAME CONTAINER_NAME</code></pre>
 <p><strong>Disconnect</strong></p>
 <pre><code>Linux
 docker network disconnect NETWORK_NAME CONTAINER_NAME</code></pre>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <hr />
 <p>Made with ❤ by Javid Lakha for the Harvard AC295 / CSCI E-115 students. Please send suggestions and corrections to <a href="mailto:javid@hey.com">javid@hey.com</a>.</p>
-<p><img alt="" src="https://static.projects.iq.harvard.edu/files/styles/os_files_medium/public/iacs2/files/logo.png?m=1590602276&amp;itok=FWS9LBKk" /></p>
-<p>Version 1.1.0</p>
+<p><img src="https://static.projects.iq.harvard.edu/files/styles/os_files_medium/public/iacs2/files/logo.png?m=1590602276&amp;itok=FWS9LBKk" /></p>
+<p>Version 1.1.1</p>
 </div>
 </div>
 </div>
