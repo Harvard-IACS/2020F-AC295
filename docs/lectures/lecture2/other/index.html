@@ -1261,10 +1261,46 @@ h6:hover .anchor-link {
 .highlight .il { color: #666666 } /* Literal.Number.Integer.Long */</style><div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Docker-Cheatsheet">Docker Cheatsheet<a class="anchor-link" href="#Docker-Cheatsheet">¶</a></h1><ul>
-<li><a href="#docker-image">docker image</a></li>
-<li><a href="#docker-container">docker container</a></li>
-<li><a href="#docker-network">docker network</a></li>
+<h1 id="Docker-Cheatsheet">Docker Cheatsheet<a class="anchor-link" href="#Docker-Cheatsheet">¶</a></h1><p><strong><a href="#docker-image">docker image</a></strong></p>
+<ul>
+<li><a href="#Build-an-image-from-a-Dockerfile">Build an image from a Dockerfile</a></li>
+<li><a href="#Tag-an-image">Tag an image</a></li>
+<li><a href="#List-images">List images</a></li>
+<li><a href="#Remove-an-image">Remove an image</a></li>
+<li><a href="#Synchronise-with-a-container-registry-(usually-DockerHub">Synchronise with a container registry</a>)</li>
+</ul>
+<p><strong><a href="#docker-container">docker container</a></strong></p>
+<ul>
+<li><a href="#Create---but-do-not-start---a-container-from-an-image">Create - but do not start - a container from an image</a></li>
+<li><a href="#Start-a-container">Start a container</a></li>
+<li><a href="#Create-and-start-a-container-from-an-image">Create and start a container from an image</a></li>
+<li><a href="#Stop-a-running-container">Stop a running container</a></li>
+<li><a href="#Pause-or-unpause-all-running-processes-in-a-container">Pause or unpause all running processes in a container</a></li>
+<li><a href="#Delete-a-container">Delete a container</a></li>
+<li><a href="#List-containers">List containers</a></li>
+<li><a href="#Copy-files">Copy files</a></li>
+<li><a href="#Execute-a-command-in-a-container">Execute a command in a container</a></li>
+<li><a href="#Create-an-image-from-a-container">Create an image from a container</a></li>
+<li><a href="#Attach-terminal-to-container">Attach terminal to container</a></li>
+<li><a href="#Display-container-information">Display container information</a></li>
+<li><a href="#Print-container-logs">Print container logs</a></li>
+</ul>
+<p><strong><a href="#docker-network">docker network</a></strong></p>
+<ul>
+<li><a href="#Create-a-network">Create a network</a></li>
+<li><a href="#List-networks">List networks</a></li>
+<li><a href="#Delete-a-network">Delete a network</a></li>
+<li><a href="#Connect-or-disconnect-a-container-from-a-network">Connect or disconnect a container from a network</a></li>
+</ul>
+<p><strong><a href="#Dockerfile-instructions">Dockerfile instructions</a></strong></p>
+<ul>
+<li><a href="#Set-the-base-image">Set the base image</a></li>
+<li><a href="#Run-a-command-in-the-shell-during-the-build-stage">Run a command in the shell during the build stage</a></li>
+<li><a href="#Set-a-variable-for-use-during-the-build-stage">Set a variable for use during the build stage</a></li>
+<li><a href="#Set-an-environment-variable">Set an environment variable</a></li>
+<li><a href="#Set-the-working-directory">Set the working directory</a></li>
+<li><a href="#Copy-files-into-a-container">Copy files into a container</a></li>
+<li><a href="#Set-the-default-command-for-a-running-container">Set the default command for a running container</a></li>
 </ul>
 </div>
 </div>
@@ -1273,7 +1309,6 @@ h6:hover .anchor-link {
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <hr />
-<p><a id="docker-image"></a></p>
 <h1 id="docker-image">docker image<a class="anchor-link" href="#docker-image">¶</a></h1><h2 id="Build-an-image-from-a-Dockerfile">Build an image from a Dockerfile<a class="anchor-link" href="#Build-an-image-from-a-Dockerfile">¶</a></h2>
 <pre><code>docker image build -t IMAGE_NAME:VERSION PATH_TO_DIRECTORY</code></pre>
 <p>Use . for the current directory. The optional argument <code>-t</code> tags the image with a name and a version.</p>
@@ -1303,7 +1338,6 @@ h6:hover .anchor-link {
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <hr />
-<p><a id="docker-container"></a></p>
 <h1 id="docker-container">docker container<a class="anchor-link" href="#docker-container">¶</a></h1><h2 id="Create---but-do-not-start---a-container-from-an-image">Create - but do not start - a container from an image<a class="anchor-link" href="#Create---but-do-not-start---a-container-from-an-image">¶</a></h2>
 <pre><code>docker container create IMAGE_NAME:VERSION</code></pre>
 <p><strong>Publish ports</strong></p>
@@ -1320,7 +1354,7 @@ h6:hover .anchor-link {
 <h2 id="Create-and-start-a-container-from-an-image">Create and start a container from an image<a class="anchor-link" href="#Create-and-start-a-container-from-an-image">¶</a></h2>
 <pre><code>docker container run IMAGE_NAME:VERSION</code></pre>
 <p><code>docker container run</code> combines <code>docker container create</code> and <code>docker container start</code>.</p>
-<h2 id="Stop-running-a-container">Stop running a container<a class="anchor-link" href="#Stop-running-a-container">¶</a></h2><p><strong>Shutdown gracefully</strong></p>
+<h2 id="Stop-a-running-container">Stop a running container<a class="anchor-link" href="#Stop-a-running-container">¶</a></h2><p><strong>Shutdown gracefully</strong></p>
 <pre><code>docker container stop CONTAINER_NAME</code></pre>
 <p><strong>Stop immediately</strong></p>
 <pre><code>docker container kill CONTAINER_NAME</code></pre>
@@ -1345,7 +1379,7 @@ h6:hover .anchor-link {
 <pre><code>docker container cp PATH_ON_DISK CONTAINER_NAME:PATH_IN_CONTAINER</code></pre>
 <p><strong>From container</strong></p>
 <pre><code>docker container cp CONTAINER_NAME:PATH_IN_CONTAINER PATH_ON_DISK</code></pre>
-<h2 id="Execute-command">Execute command<a class="anchor-link" href="#Execute-command">¶</a></h2>
+<h2 id="Execute-a-command-in-a-container">Execute a command in a container<a class="anchor-link" href="#Execute-a-command-in-a-container">¶</a></h2>
 <pre><code>docker container exec CONTAINER_NAME COMMAND OPTIONAL_ARGUMENTS</code></pre>
 <p><strong>Run in background</strong></p>
 <pre><code>docker container exec -d CONTAINER_NAME COMMAND OPTIONAL_ARGUMENTS</code></pre>
@@ -1353,12 +1387,12 @@ h6:hover .anchor-link {
 <pre><code>docker container exec -e VARIABLE_NAME=VALUE CONTAINER_NAME COMMAND OPTIONAL_ARGUMENTS</code></pre>
 <h2 id="Create-an-image-from-a-container">Create an image from a container<a class="anchor-link" href="#Create-an-image-from-a-container">¶</a></h2>
 <pre><code>docker container commit CONTAINER_NAME</code></pre>
-<h2 id="Attach-current-terminal-to-container">Attach current terminal to container<a class="anchor-link" href="#Attach-current-terminal-to-container">¶</a></h2>
+<h2 id="Attach-terminal-to-container">Attach terminal to container<a class="anchor-link" href="#Attach-terminal-to-container">¶</a></h2>
 <pre><code>docker container attach CONTAINER_NAME</code></pre>
 <p><code>CTRL+C</code> to detach.</p>
-<h2 id="Diagnostics">Diagnostics<a class="anchor-link" href="#Diagnostics">¶</a></h2><p><strong>Display container information</strong></p>
+<h2 id="Display-container-information">Display container information<a class="anchor-link" href="#Display-container-information">¶</a></h2>
 <pre><code>docker container inspect CONTAINER_NAME</code></pre>
-<p><strong>Print container logs</strong></p>
+<h2 id="Print-container-logs">Print container logs<a class="anchor-link" href="#Print-container-logs">¶</a></h2>
 <pre><code>docker container logs CONTAINER_NAME</code></pre>
 <p><strong>Print the last N lines of the container logs</strong></p>
 <pre><code>docker container logs --tail N CONTAINER_NAME</code></pre>
@@ -1371,8 +1405,7 @@ h6:hover .anchor-link {
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <hr />
-<h1 id="docker-network">docker network<a class="anchor-link" href="#docker-network">¶</a></h1><p><a id="docker-network"></a></p>
-<h2 id="Create-a-network">Create a network<a class="anchor-link" href="#Create-a-network">¶</a></h2>
+<h1 id="docker-network">docker network<a class="anchor-link" href="#docker-network">¶</a></h1><h2 id="Create-a-network">Create a network<a class="anchor-link" href="#Create-a-network">¶</a></h2>
 <pre><code>docker network create NETWORK_NAME</code></pre>
 <h1 id="List-networks">List networks<a class="anchor-link" href="#List-networks">¶</a></h1>
 <pre><code>docker network ls</code></pre>
@@ -1380,10 +1413,62 @@ h6:hover .anchor-link {
 <pre><code>docker network rm NETWORK_NAME</code></pre>
 <p><strong>Remove all unused networks</strong></p>
 <pre><code>docker network prune</code></pre>
-<h2 id="Connect-/-disconnect-a-container-from-a-network">Connect / disconnect a container from a network<a class="anchor-link" href="#Connect-/-disconnect-a-container-from-a-network">¶</a></h2><p><strong>Connect</strong></p>
+<h2 id="Connect-or-disconnect-a-container-from-a-network">Connect or disconnect a container from a network<a class="anchor-link" href="#Connect-or-disconnect-a-container-from-a-network">¶</a></h2><p><strong>Connect</strong></p>
 <pre><code>docker network connect NETWORK_NAME CONTAINER_NAME</code></pre>
 <p><strong>Disconnect</strong></p>
 <pre><code>docker network disconnect NETWORK_NAME CONTAINER_NAME</code></pre>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<hr />
+<h1 id="Dockerfile-instructions">Dockerfile instructions<a class="anchor-link" href="#Dockerfile-instructions">¶</a></h1><p>To build a Dockerfile, use</p>
+<pre><code>docker image build -t IMAGE_NAME:VERSION PATH_TO_BUILD_CONTEXT</code></pre>
+<p>The Dockerfile should be located at the root of the <a href="#Build-context">build context</a> and should be called <code>Dockerfile</code>. If it is not, use</p>
+<pre><code>docker build -t -IMAGE_NAME:VERSION -f PATH_TO_DOCKERFILE PATH_TO_BUILD_CONTEXT</code></pre>
+<p><code>PATH_TO_DOCKERFILE</code> cannot be outside of the <a href="#Build-context">build context</a>.</p>
+<p><code>docker image build</code> executes each instruction in the Dockerfile in sequence. After each instruction, the resulting intermediate image is committed. If <code>docker image build</code> is re-run using the same build context, cached images are used until the first changed instruction. Consequently, it is good practice to structure the Dockerfile so that instructions that change less frequently are executed first.</p>
+<h4 id="Build-context">Build context<a class="anchor-link" href="#Build-context">¶</a></h4><p>The Dockerfile and any local files copied to the container must be contained within a build context. The build context is a local directory.</p>
+<p>When <code>docker image build</code> is run, the <em>entire</em> build context is copied to the Docker daemon. The exception to this are files and directories that are marked for omission in a <a href="https://docs.docker.com/engine/reference/builder/#dockerignore-file">.dockerignore file</a> that is placed at the root of the build context. Because large build contexts reduce the performance of <code>docker image build</code>, it is good practice to only include directories and files that are relevant to the container in the build context or to use a .dockerignore file.</p>
+<h2 id="Set-the-base-image">Set the base image<a class="anchor-link" href="#Set-the-base-image">¶</a></h2>
+<pre><code>FROM IMAGE_NAME:VERSION</code></pre>
+<p>This must be the first instruction in a Dockerfile. (The only exception is the <code>ARG</code> instruction, which may be used to set <code>IMAGE_NAME</code> or <code>VERSION</code>. Variables set before the <code>FROM</code> instruction <a href="https://docs.docker.com/engine/reference/builder/#understand-how-arg-and-from-interact">do not persist after it</a>.)</p>
+<h2 id="Run-a-command-in-the-shell-during-the-build-stage">Run a command in the shell during the build stage<a class="anchor-link" href="#Run-a-command-in-the-shell-during-the-build-stage">¶</a></h2>
+<pre><code>RUN COMMAND OPTIONAL_ARGUMENTS</code></pre>
+<p>This runs commands using the default shell (<code>/bin/sh -c</code> on Linux, <code>cmd /S /C</code> on Windows). This is known as the <em>shell form</em>. An alternative form is the <em>exec form</em>:</p>
+<pre><code>RUN ["EXECUTABLE", "OPTIONAL_ARGUMENT1", "OPTIONAL_ARGUMENT2", ...]</code></pre>
+<h2 id="Set-a-variable-for-use-during-the-build-stage">Set a variable for use during the build stage<a class="anchor-link" href="#Set-a-variable-for-use-during-the-build-stage">¶</a></h2>
+<pre><code>ARG KEY=VALUE</code></pre>
+<p>If <code>VALUE</code> contains spaces, enclose it within double-quotes or precede each space with a backslash.</p>
+<p>To reference this variable, use <code>$KEY</code>.</p>
+<p>Multiple variables can be set in a single instruction. To do this, use</p>
+<pre><code>ARG KEY1=VALUE1 KEY2=VALUE2, ...</code></pre>
+<p>Variables set using <code>ARG</code> do not persist once the container has been built. To set an environment variable that is available when the container is running, use <code>ENV</code>.</p>
+<h2 id="Set-an-environment-variable">Set an environment variable<a class="anchor-link" href="#Set-an-environment-variable">¶</a></h2>
+<pre><code>ENV KEY=VALUE</code></pre>
+<p>If <code>VALUE</code> contains spaces, enclose it within double-quotes or precede each space with a backslash.</p>
+<p>Variables set using <code>ENV</code> can be referenced in a Dockerfile - and override variables set using <code>ARG</code>. To reference a variable, use <code>$KEY</code>.</p>
+<p>Multiple variables can be set in a single instruction. To do this, use</p>
+<pre><code>ENV KEY1=VALUE1 KEY2=VALUE2, ...</code></pre>
+<p>Variables set using <code>ENV</code> persist when the container is running.</p>
+<h2 id="Set-the-working-directory">Set the working directory<a class="anchor-link" href="#Set-the-working-directory">¶</a></h2><p>To set the working directory for subsequent <code>RUN</code>, <code>COPY</code>, <code>ADD</code> and <code>CMD</code> instructions, use</p>
+<pre><code>WORKDIR PATH_IN_CONTAINER</code></pre>
+<p>If the <code>WORKDIR</code> instruction is used multiple times, each subsequent path will be set relative to the path of the previous <code>WORKDIR</code> instruction.</p>
+<h2 id="Copy-files-into-a-container">Copy files into a container<a class="anchor-link" href="#Copy-files-into-a-container">¶</a></h2><p><strong>Copy files into a container from a local source</strong></p>
+<pre><code>COPY PATH_ON_DISK PATH_IN_CONTAINER</code></pre>
+<p><code>PATH_ON_DISK</code> cannot be outside of the <a href="#Build-context">build context</a>. (This is usually <a href="https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#understand-build-context">the same directory as the Dockerfile</a>.)</p>
+<p><strong>Copy files into a container from any source</strong></p>
+<pre><code>ADD SOURCE_PATH PATH_IN_CONTAINER</code></pre>
+<p><code>SOURCE_PATH</code> can be a local file or a URL. If it is a local tar archive with extensions gzip, bzip2 or xz, it is first unpacked.</p>
+<p>If <code>SOURCE_PATH</code> is a local file it cannot be outside of the <a href="#Build-context">build context</a>. (This is usually <a href="https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#understand-build-context">the same directory as the Dockerfile</a>.)</p>
+<p><code>ADD</code> is more powerful than <code>COPY</code> - it supports both local and remote sources and unpacks tar archives. When copying files from a local source, <code>COPY</code> is preferred <a href="https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#add-or-copy">because it is more transparent</a>.</p>
+<h2 id="Set-the-default-command-for-a-running-container">Set the default command for a running container<a class="anchor-link" href="#Set-the-default-command-for-a-running-container">¶</a></h2>
+<pre><code>CMD ["EXECUTABLE", "OPTIONAL_ARGUMENT1", "OPTIONAL_ARGUMENT2", ...]</code></pre>
+<p>This is the <em>exec form</em>, which is preferred. However, to pass an environment variable, it is necessary to use the <em>shell form</em>:</p>
+<pre><code>CMD COMMAND OPTIONAL_ARGUMENTS</code></pre>
+<p>There can only be one <code>CMD</code> instruction in a Dockerfile. If <code>CMD</code> is used more than once, only the last instruction is effective.</p>
 </div>
 </div>
 </div>
@@ -1399,18 +1484,7 @@ h6:hover .anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Version 1.1.2</p>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In [ ]:</div>
-<div class="inner_cell">
-<div class="input_area">
-<div class="highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-</div>
+<p>Version 1.2.0</p>
 </div>
 </div>
 </div>
