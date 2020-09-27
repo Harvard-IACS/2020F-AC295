@@ -9,7 +9,7 @@
     />
     <meta
       name="description"
-      content="Fall 2020 - Harvard University, Institute for Applied Computational Science. Lecture 2: other"
+      content="Fall 2020 - Harvard University, Institute for Applied Computational Science. Lecture 2: docker-cheatsheet"
     />
     <meta name="author" content="Andrea Porelli" />
 <meta
@@ -53,7 +53,7 @@
     />
     <link rel="stylesheet" href="../../../style/css/iacs.css" />
 
-    <title>Harvard AC295 | Lecture 2: other</title>
+    <title>Harvard AC295 | Lecture 2: docker-cheatsheet</title>
 
     <style>
       .navbar {
@@ -140,7 +140,7 @@
       >     </p>
   </div>
   <div class="float-right">
-    <a href="../../../lectures/lecture2/other/Docker Cheatsheet.ipynb">
+    <a href="../../../lectures/lecture2/docker-cheatsheet/Docker Cheatsheet.ipynb">
       Download Notebook <i class="fas fa-download"></i>
     </a>
   </div>
@@ -1267,7 +1267,7 @@ h6:hover .anchor-link {
 <li><a href="#Tag-an-image">Tag an image</a></li>
 <li><a href="#List-images">List images</a></li>
 <li><a href="#Remove-an-image">Remove an image</a></li>
-<li><a href="#Synchronise-with-a-container-registry-(usually-DockerHub">Synchronise with a container registry</a>)</li>
+<li><a href="#Synchronise-with-a-container-registry">Synchronise with a container registry</a></li>
 </ul>
 <p><strong><a href="#docker-container">docker container</a></strong></p>
 <ul>
@@ -1296,6 +1296,7 @@ h6:hover .anchor-link {
 <ul>
 <li><a href="#Set-the-base-image">Set the base image</a></li>
 <li><a href="#Run-a-command-in-the-shell-during-the-build-stage">Run a command in the shell during the build stage</a></li>
+<li><a href="#Publish-a-port">Publish a port</a></li>
 <li><a href="#Set-a-variable-for-use-during-the-build-stage">Set a variable for use during the build stage</a></li>
 <li><a href="#Set-an-environment-variable">Set an environment variable</a></li>
 <li><a href="#Set-the-working-directory">Set the working directory</a></li>
@@ -1310,27 +1311,26 @@ h6:hover .anchor-link {
 <div class="text_cell_render border-box-sizing rendered_html">
 <hr />
 <h1 id="docker-image">docker image<a class="anchor-link" href="#docker-image">¶</a></h1><h2 id="Build-an-image-from-a-Dockerfile">Build an image from a Dockerfile<a class="anchor-link" href="#Build-an-image-from-a-Dockerfile">¶</a></h2>
-<pre><code>docker image build -t IMAGE_NAME:VERSION PATH_TO_DIRECTORY</code></pre>
-<p>Use . for the current directory. The optional argument <code>-t</code> tags the image with a name and a version.</p>
-<p><strong>… or from a GitHub repository</strong></p>
-<pre><code>docker build -t IMAGE_NAME:VERSION REPOSITORY_URL</code></pre>
-<p>The optional argument <code>-t</code> tags the image with a name and a version.</p>
-<h2 id="Tag-an-image">Tag an image<a class="anchor-link" href="#Tag-an-image">¶</a></h2>
-<pre><code>docker image tag OLD_TAG:VERSION NEW_TAG:VERSION</code></pre>
+<pre><code>docker image build -t IMAGE_NAME:TAG PATH_TO_BUILD_CONTEXT</code></pre>
+<p>The Dockerfile should be located at the root of the <a href="#Build-context">build context</a> and should be called <code>Dockerfile</code>. If it is not, use</p>
+<pre><code>docker build -t -IMAGE_NAME:TAG -f PATH_TO_DOCKERFILE PATH_TO_BUILD_CONTEXT</code></pre>
+<p><code>PATH_TO_DOCKERFILE</code> cannot be outside of the <a href="#Build-context">build context</a>.</p>
+<h2 id="Tag-an-image">Tag an image<a class="anchor-link" href="#Tag-an-image">¶</a></h2><p>To create a tag <code>TARGET_IMAGE</code> that refers to <code>SOURCE_IMAGE</code>, use</p>
+<pre><code>docker image tag SOURCE_IMAGE:TAG TARGET_IMAGE:TAG</code></pre>
 <h2 id="List-images">List images<a class="anchor-link" href="#List-images">¶</a></h2>
 <pre><code>docker image ls</code></pre>
 <p><strong>Include intermediate images</strong></p>
 <pre><code>docker image ls -a</code></pre>
 <h2 id="Remove-an-image">Remove an image<a class="anchor-link" href="#Remove-an-image">¶</a></h2>
-<pre><code>docker image rm IMAGE_NAME:VERSION</code></pre>
+<pre><code>docker image rm IMAGE_NAME:TAG</code></pre>
 <p><strong>Remove danging intermediate images</strong></p>
 <pre><code>docker image prune</code></pre>
 <p><strong>Remove images not referenced by a container</strong></p>
 <pre><code>docker image prune -a</code></pre>
-<h2 id="Synchronise-with-a-container-registry-(usually-DockerHub)">Synchronise with a container registry (usually DockerHub)<a class="anchor-link" href="#Synchronise-with-a-container-registry-(usually-DockerHub)">¶</a></h2><p><strong>Pull from the registry</strong></p>
-<pre><code>docker image pull IMAGE_NAME:VERSION</code></pre>
+<h2 id="Synchronise-with-a-container-registry">Synchronise with a container registry<a class="anchor-link" href="#Synchronise-with-a-container-registry">¶</a></h2><p><strong>Pull from the registry</strong></p>
+<pre><code>docker image pull IMAGE_NAME:TAG</code></pre>
 <p><strong>Push to the registry</strong></p>
-<pre><code>docker image push IMAGE_NAME:VERSION</code></pre>
+<pre><code>docker image push IMAGE_NAME:TAG</code></pre>
 </div>
 </div>
 </div>
@@ -1339,11 +1339,13 @@ h6:hover .anchor-link {
 <div class="text_cell_render border-box-sizing rendered_html">
 <hr />
 <h1 id="docker-container">docker container<a class="anchor-link" href="#docker-container">¶</a></h1><h2 id="Create---but-do-not-start---a-container-from-an-image">Create - but do not start - a container from an image<a class="anchor-link" href="#Create---but-do-not-start---a-container-from-an-image">¶</a></h2>
-<pre><code>docker container create IMAGE_NAME:VERSION</code></pre>
+<pre><code>docker container create IMAGE_NAME:TAG</code></pre>
 <p><strong>Publish ports</strong></p>
-<pre><code>docker container create -p CONTAINER_PORT:EXTERNAL_PORT IMAGE_NAME</code></pre>
+<pre><code>docker container create -p HOST_PORT:CONTAINER_PORT/PROTOCOL IMAGE_NAME:TAG</code></pre>
+<p><code>HOST_PORT</code> is the port used to access the container from outside. <code>CONTAINER_PORT</code> is the port used within the container.</p>
+<p><code>PROTOCOL</code> must be either <code>tcp</code> or <code>udp</code>. If <code>PROTOCOL</code> is not specified, <code>tcp</code> is assumed.</p>
 <p><strong>Mount a volume</strong></p>
-<pre><code>docker container create --mount source=PATH_ON_DISK, target=PATH_IN_CONTAINER, type=bind IMAGE_NAME:VERSION</code></pre>
+<pre><code>docker container create --mount source=PATH_ON_DISK, target=PATH_IN_CONTAINER, type=bind IMAGE_NAME:TAG</code></pre>
 <h2 id="Start-a-container">Start a container<a class="anchor-link" href="#Start-a-container">¶</a></h2>
 <pre><code>docker container start CONTAINER_NAME</code></pre>
 <p><strong>Print container output</strong></p>
@@ -1352,8 +1354,14 @@ h6:hover .anchor-link {
 <pre><code>docker container start -it CONTAINER_NAME</code></pre>
 <p><code>CTRL+P</code> then <code>CTRL+Q</code> to disconnect.</p>
 <h2 id="Create-and-start-a-container-from-an-image">Create and start a container from an image<a class="anchor-link" href="#Create-and-start-a-container-from-an-image">¶</a></h2>
-<pre><code>docker container run IMAGE_NAME:VERSION</code></pre>
+<pre><code>docker container run IMAGE_NAME:TAG</code></pre>
 <p><code>docker container run</code> combines <code>docker container create</code> and <code>docker container start</code>.</p>
+<p><strong>Publish ports</strong></p>
+<pre><code>docker container run -p HOST_PORT:CONTAINER_PORT/PROTOCOL IMAGE_NAME:TAG</code></pre>
+<p><code>HOST_PORT</code> is the port used to access the container from outside. <code>CONTAINER_PORT</code> is the port used within the container.</p>
+<p><code>PROTOCOL</code> must be either <code>tcp</code> or <code>udp</code>. If <code>PROTOCOL</code> is not specified, <code>tcp</code> is assumed.</p>
+<p><strong>Mount a volume</strong></p>
+<pre><code>docker container run --mount source=PATH_ON_DISK, target=PATH_IN_CONTAINER, type=bind IMAGE_NAME:TAG</code></pre>
 <h2 id="Stop-a-running-container">Stop a running container<a class="anchor-link" href="#Stop-a-running-container">¶</a></h2><p><strong>Shutdown gracefully</strong></p>
 <pre><code>docker container stop CONTAINER_NAME</code></pre>
 <p><strong>Stop immediately</strong></p>
@@ -1425,20 +1433,24 @@ h6:hover .anchor-link {
 <div class="text_cell_render border-box-sizing rendered_html">
 <hr />
 <h1 id="Dockerfile-instructions">Dockerfile instructions<a class="anchor-link" href="#Dockerfile-instructions">¶</a></h1><p>To build a Dockerfile, use</p>
-<pre><code>docker image build -t IMAGE_NAME:VERSION PATH_TO_BUILD_CONTEXT</code></pre>
+<pre><code>docker image build -t IMAGE_NAME:TAG PATH_TO_BUILD_CONTEXT</code></pre>
 <p>The Dockerfile should be located at the root of the <a href="#Build-context">build context</a> and should be called <code>Dockerfile</code>. If it is not, use</p>
-<pre><code>docker build -t -IMAGE_NAME:VERSION -f PATH_TO_DOCKERFILE PATH_TO_BUILD_CONTEXT</code></pre>
+<pre><code>docker build -t -IMAGE_NAME:TAG -f PATH_TO_DOCKERFILE PATH_TO_BUILD_CONTEXT</code></pre>
 <p><code>PATH_TO_DOCKERFILE</code> cannot be outside of the <a href="#Build-context">build context</a>.</p>
 <p><code>docker image build</code> executes each instruction in the Dockerfile in sequence. After each instruction, the resulting intermediate image is committed. If <code>docker image build</code> is re-run using the same build context, cached images are used until the first changed instruction. Consequently, it is good practice to structure the Dockerfile so that instructions that change less frequently are executed first.</p>
 <h4 id="Build-context">Build context<a class="anchor-link" href="#Build-context">¶</a></h4><p>The Dockerfile and any local files copied to the container must be contained within a build context. The build context is a local directory.</p>
 <p>When <code>docker image build</code> is run, the <em>entire</em> build context is copied to the Docker daemon. The exception to this are files and directories that are marked for omission in a <a href="https://docs.docker.com/engine/reference/builder/#dockerignore-file">.dockerignore file</a> that is placed at the root of the build context. Because large build contexts reduce the performance of <code>docker image build</code>, it is good practice to only include directories and files that are relevant to the container in the build context or to use a .dockerignore file.</p>
 <h2 id="Set-the-base-image">Set the base image<a class="anchor-link" href="#Set-the-base-image">¶</a></h2>
-<pre><code>FROM IMAGE_NAME:VERSION</code></pre>
-<p>This must be the first instruction in a Dockerfile. (The only exception is the <code>ARG</code> instruction, which may be used to set <code>IMAGE_NAME</code> or <code>VERSION</code>. Variables set before the <code>FROM</code> instruction <a href="https://docs.docker.com/engine/reference/builder/#understand-how-arg-and-from-interact">do not persist after it</a>.)</p>
+<pre><code>FROM IMAGE_NAME:TAG</code></pre>
+<p>This must be the first instruction in a Dockerfile. (The only exception is the <code>ARG</code> instruction, which may be used to set <code>IMAGE_NAME</code> or <code>TAG</code>. Variables set before the <code>FROM</code> instruction <a href="https://docs.docker.com/engine/reference/builder/#understand-how-arg-and-from-interact">do not persist after it</a>.)</p>
 <h2 id="Run-a-command-in-the-shell-during-the-build-stage">Run a command in the shell during the build stage<a class="anchor-link" href="#Run-a-command-in-the-shell-during-the-build-stage">¶</a></h2>
 <pre><code>RUN COMMAND OPTIONAL_ARGUMENTS</code></pre>
 <p>This runs commands using the default shell (<code>/bin/sh -c</code> on Linux, <code>cmd /S /C</code> on Windows). This is known as the <em>shell form</em>. An alternative form is the <em>exec form</em>:</p>
 <pre><code>RUN ["EXECUTABLE", "OPTIONAL_ARGUMENT1", "OPTIONAL_ARGUMENT2", ...]</code></pre>
+<h2 id="Publish-a-port">Publish a port<a class="anchor-link" href="#Publish-a-port">¶</a></h2>
+<pre><code>RUN -p HOST_PORT:CONTAINER_PORT/PROTOCOL</code></pre>
+<p><code>HOST_PORT</code> is the port used to access the container from outside. <code>CONTAINER_PORT</code> is the port used within the container.</p>
+<p><code>PROTOCOL</code> must be either <code>tcp</code> or <code>udp</code>. If <code>PROTOCOL</code> is not specified, <code>tcp</code> is assumed.</p>
 <h2 id="Set-a-variable-for-use-during-the-build-stage">Set a variable for use during the build stage<a class="anchor-link" href="#Set-a-variable-for-use-during-the-build-stage">¶</a></h2>
 <pre><code>ARG KEY=VALUE</code></pre>
 <p>If <code>VALUE</code> contains spaces, enclose it within double-quotes or precede each space with a backslash.</p>
@@ -1478,13 +1490,7 @@ h6:hover .anchor-link {
 <hr />
 <p>Made with ❤ by Javid Lakha for the Harvard AC295 / CSCI E-115 students. Please send suggestions and corrections to <a href="mailto:javid@hey.com">javid@hey.com</a>.</p>
 <p><img alt="Harvard Institute for Applied Computational Science logo" src="https://static.projects.iq.harvard.edu/files/styles/os_files_medium/public/iacs2/files/logo.png" style="float: center; padding-right: 10px; width: 450px" /></p>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Version 1.2.0</p>
+<p>Version 1.2.1</p>
 </div>
 </div>
 </div>

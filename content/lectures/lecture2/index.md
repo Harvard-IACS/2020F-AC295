@@ -22,6 +22,6 @@ Tags:Containers, Docker
 - [Dockerfile_server]({attach}demos2/Dockerfile_server)
 
 ## Docker cheat sheet 
-- [Docker cheat sheet]({filename}other/Docker Cheatsheet.ipynb)
+- [Docker cheat sheet]({filename}docker-cheatsheet/Docker Cheatsheet.ipynb)
 
 
