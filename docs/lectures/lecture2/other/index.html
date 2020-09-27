@@ -1275,37 +1275,27 @@ h6:hover .anchor-link {
 <hr />
 <p><a id="docker-image"></a></p>
 <h1 id="docker-image">docker image<a class="anchor-link" href="#docker-image">¶</a></h1><h2 id="Build-an-image-from-a-Dockerfile">Build an image from a Dockerfile<a class="anchor-link" href="#Build-an-image-from-a-Dockerfile">¶</a></h2>
-<pre><code>Linux
-docker image build -t IMAGE_NAME:VERSION PATH_TO_DIRECTORY</code></pre>
+<pre><code>docker image build -t IMAGE_NAME:VERSION PATH_TO_DIRECTORY</code></pre>
 <p>Use . for the current directory. The optional argument <code>-t</code> tags the image with a name and a version.</p>
 <p><strong>… or from a GitHub repository</strong></p>
-<pre><code>Linux
-docker build -t IMAGE_NAME:VERSION REPOSITORY_URL</code></pre>
+<pre><code>docker build -t IMAGE_NAME:VERSION REPOSITORY_URL</code></pre>
 <p>The optional argument <code>-t</code> tags the image with a name and a version.</p>
 <h2 id="Tag-an-image">Tag an image<a class="anchor-link" href="#Tag-an-image">¶</a></h2>
-<pre><code>Linux
-docker image tag OLD_TAG:VERSION NEW_TAG:VERSION</code></pre>
+<pre><code>docker image tag OLD_TAG:VERSION NEW_TAG:VERSION</code></pre>
 <h2 id="List-images">List images<a class="anchor-link" href="#List-images">¶</a></h2>
-<pre><code>Linux
-docker image ls</code></pre>
+<pre><code>docker image ls</code></pre>
 <p><strong>Include intermediate images</strong></p>
-<pre><code>Linux
-docker image ls -a</code></pre>
+<pre><code>docker image ls -a</code></pre>
 <h2 id="Remove-an-image">Remove an image<a class="anchor-link" href="#Remove-an-image">¶</a></h2>
-<pre><code>Linux
-docker image rm IMAGE_NAME:VERSION</code></pre>
+<pre><code>docker image rm IMAGE_NAME:VERSION</code></pre>
 <p><strong>Remove danging intermediate images</strong></p>
-<pre><code>Linux
-docker image prune</code></pre>
+<pre><code>docker image prune</code></pre>
 <p><strong>Remove images not referenced by a container</strong></p>
-<pre><code>Linux
-docker image prune -a</code></pre>
+<pre><code>docker image prune -a</code></pre>
 <h2 id="Synchronise-with-a-container-registry-(usually-DockerHub)">Synchronise with a container registry (usually DockerHub)<a class="anchor-link" href="#Synchronise-with-a-container-registry-(usually-DockerHub)">¶</a></h2><p><strong>Pull from the registry</strong></p>
-<pre><code>Linux
-docker image pull IMAGE_NAME:VERSION</code></pre>
+<pre><code>docker image pull IMAGE_NAME:VERSION</code></pre>
 <p><strong>Push to the registry</strong></p>
-<pre><code>Linux
-docker image push IMAGE_NAME:VERSION</code></pre>
+<pre><code>docker image push IMAGE_NAME:VERSION</code></pre>
 </div>
 </div>
 </div>
@@ -1315,93 +1305,65 @@ docker image push IMAGE_NAME:VERSION</code></pre>
 <hr />
 <p><a id="docker-container"></a></p>
 <h1 id="docker-container">docker container<a class="anchor-link" href="#docker-container">¶</a></h1><h2 id="Create---but-do-not-start---a-container-from-an-image">Create - but do not start - a container from an image<a class="anchor-link" href="#Create---but-do-not-start---a-container-from-an-image">¶</a></h2>
-<pre><code>Linux
-docker container create IMAGE_NAME:VERSION</code></pre>
+<pre><code>docker container create IMAGE_NAME:VERSION</code></pre>
 <p><strong>Publish ports</strong></p>
-<pre><code>Linux
-docker container create -p CONTAINER_PORT:EXTERNAL_PORT IMAGE_NAME</code></pre>
+<pre><code>docker container create -p CONTAINER_PORT:EXTERNAL_PORT IMAGE_NAME</code></pre>
 <p><strong>Mount a volume</strong></p>
-<pre><code>Linux
-docker container create --mount source=PATH_ON_DISK, target=PATH_IN_CONTAINER, type=bind IMAGE_NAME:VERSION</code></pre>
+<pre><code>docker container create --mount source=PATH_ON_DISK, target=PATH_IN_CONTAINER, type=bind IMAGE_NAME:VERSION</code></pre>
 <h2 id="Start-a-container">Start a container<a class="anchor-link" href="#Start-a-container">¶</a></h2>
-<pre><code>Linux
-docker container start CONTAINER_NAME</code></pre>
+<pre><code>docker container start CONTAINER_NAME</code></pre>
 <p><strong>Print container output</strong></p>
-<pre><code>Linux
-docker container start -a CONTAINER_NAME</code></pre>
+<pre><code>docker container start -a CONTAINER_NAME</code></pre>
 <p><strong>Connect to the container’s terminal</strong></p>
-<pre><code>Linux
-docker container start -it CONTAINER_NAME</code></pre>
+<pre><code>docker container start -it CONTAINER_NAME</code></pre>
 <p><code>CTRL+P</code> then <code>CTRL+Q</code> to disconnect.</p>
 <h2 id="Create-and-start-a-container-from-an-image">Create and start a container from an image<a class="anchor-link" href="#Create-and-start-a-container-from-an-image">¶</a></h2>
-<pre><code>Linux
-docker container run IMAGE_NAME:VERSION</code></pre>
+<pre><code>docker container run IMAGE_NAME:VERSION</code></pre>
 <p><code>docker container run</code> combines <code>docker container create</code> and <code>docker container start</code>.</p>
 <h2 id="Stop-running-a-container">Stop running a container<a class="anchor-link" href="#Stop-running-a-container">¶</a></h2><p><strong>Shutdown gracefully</strong></p>
-<pre><code>Linux
-docker container stop CONTAINER_NAME</code></pre>
+<pre><code>docker container stop CONTAINER_NAME</code></pre>
 <p><strong>Stop immediately</strong></p>
-<pre><code>Linux
-docker container kill CONTAINER_NAME</code></pre>
+<pre><code>docker container kill CONTAINER_NAME</code></pre>
 <h2 id="Pause-or-unpause-all-running-processes-in-a-container">Pause or unpause all running processes in a container<a class="anchor-link" href="#Pause-or-unpause-all-running-processes-in-a-container">¶</a></h2><p><strong>Pause</strong></p>
-<pre><code>Linux
-docker container pause CONTAINER_NAME</code></pre>
+<pre><code>docker container pause CONTAINER_NAME</code></pre>
 <p><strong>Unpause</strong></p>
-<pre><code>Linux
-docker container unpause CONTAINER_NAME</code></pre>
+<pre><code>docker container unpause CONTAINER_NAME</code></pre>
 <h2 id="Delete-a-container">Delete a container<a class="anchor-link" href="#Delete-a-container">¶</a></h2>
-<pre><code>Linux
-docker container rm CONTAINER_NAME</code></pre>
+<pre><code>docker container rm CONTAINER_NAME</code></pre>
 <p><strong>Stop and delete a running container</strong></p>
-<pre><code>Linux
-docker container rm -f CONTAINER_NAME</code></pre>
+<pre><code>docker container rm -f CONTAINER_NAME</code></pre>
 <p>Stops immediately, no graceful shutdown.</p>
 <p><strong>Delete all stopped containers</strong></p>
-<pre><code>Linux
-docker container prune</code></pre>
+<pre><code>docker container prune</code></pre>
 <p><strong>Delete all running and stopped containers</strong></p>
-<pre><code>Linux
-docker container rm -f $(docker ps -aq)</code></pre>
+<pre><code>docker container rm -f $(docker ps -aq)</code></pre>
 <h2 id="List-containers">List containers<a class="anchor-link" href="#List-containers">¶</a></h2><p><strong>Running containers</strong></p>
-<pre><code>Linux
-docker container ls</code></pre>
+<pre><code>docker container ls</code></pre>
 <p><strong>All containers</strong></p>
-<pre><code>Linux
-docker container ls --all</code></pre>
+<pre><code>docker container ls --all</code></pre>
 <h2 id="Copy-files">Copy files<a class="anchor-link" href="#Copy-files">¶</a></h2><p><strong>To container</strong></p>
-<pre><code>Linux
-docker container cp PATH_ON_DISK CONTAINER_NAME:PATH_IN_CONTAINER</code></pre>
+<pre><code>docker container cp PATH_ON_DISK CONTAINER_NAME:PATH_IN_CONTAINER</code></pre>
 <p><strong>From container</strong></p>
-<pre><code>Linux
-docker container cp CONTAINER_NAME:PATH_IN_CONTAINER PATH_ON_DISK</code></pre>
+<pre><code>docker container cp CONTAINER_NAME:PATH_IN_CONTAINER PATH_ON_DISK</code></pre>
 <h2 id="Execute-command">Execute command<a class="anchor-link" href="#Execute-command">¶</a></h2>
-<pre><code>Linux
-docker container exec CONTAINER_NAME COMMAND OPTIONAL_ARGUMENTS</code></pre>
+<pre><code>docker container exec CONTAINER_NAME COMMAND OPTIONAL_ARGUMENTS</code></pre>
 <p><strong>Run in background</strong></p>
-<pre><code>Linux
-docker container exec -d CONTAINER_NAME COMMAND OPTIONAL_ARGUMENTS</code></pre>
+<pre><code>docker container exec -d CONTAINER_NAME COMMAND OPTIONAL_ARGUMENTS</code></pre>
 <p><strong>Execute with temporary environment variables</strong></p>
-<pre><code>Linux
-docker container exec -e VARIABLE_NAME=VALUE CONTAINER_NAME COMMAND OPTIONAL_ARGUMENTS</code></pre>
+<pre><code>docker container exec -e VARIABLE_NAME=VALUE CONTAINER_NAME COMMAND OPTIONAL_ARGUMENTS</code></pre>
 <h2 id="Create-an-image-from-a-container">Create an image from a container<a class="anchor-link" href="#Create-an-image-from-a-container">¶</a></h2>
-<pre><code>Linux
-docker container commit CONTAINER_NAME</code></pre>
+<pre><code>docker container commit CONTAINER_NAME</code></pre>
 <h2 id="Attach-current-terminal-to-container">Attach current terminal to container<a class="anchor-link" href="#Attach-current-terminal-to-container">¶</a></h2>
-<pre><code>Linux
-docker container attach CONTAINER_NAME</code></pre>
+<pre><code>docker container attach CONTAINER_NAME</code></pre>
 <p><code>CTRL+C</code> to detach.</p>
 <h2 id="Diagnostics">Diagnostics<a class="anchor-link" href="#Diagnostics">¶</a></h2><p><strong>Display container information</strong></p>
-<pre><code>Linux
-docker container inspect CONTAINER_NAME</code></pre>
+<pre><code>docker container inspect CONTAINER_NAME</code></pre>
 <p><strong>Print container logs</strong></p>
-<pre><code>Linux
-docker container logs CONTAINER_NAME</code></pre>
+<pre><code>docker container logs CONTAINER_NAME</code></pre>
 <p><strong>Print the last N lines of the container logs</strong></p>
-<pre><code>Linux
-docker container logs --tail N CONTAINER_NAME</code></pre>
+<pre><code>docker container logs --tail N CONTAINER_NAME</code></pre>
 <p><strong>Print all subsequent logs</strong></p>
-<pre><code>Linux
-docker container logs -f CONTAINER_NAME</code></pre>
+<pre><code>docker container logs -f CONTAINER_NAME</code></pre>
 </div>
 </div>
 </div>
@@ -1411,21 +1373,17 @@ docker container logs -f CONTAINER_NAME</code></pre>
 <hr />
 <h1 id="docker-network">docker network<a class="anchor-link" href="#docker-network">¶</a></h1><p><a id="docker-network"></a></p>
 <h2 id="Create-a-network">Create a network<a class="anchor-link" href="#Create-a-network">¶</a></h2>
-<pre><code>Linux
-docker network create NETWORK_NAME</code></pre>
+<pre><code>docker network create NETWORK_NAME</code></pre>
 <h1 id="List-networks">List networks<a class="anchor-link" href="#List-networks">¶</a></h1>
-<pre><code>Linux
-docker network ls</code></pre>
-<h2 id="Delete-a-network">Delete a network<a class="anchor-link" href="#Delete-a-network">¶</a></h2><p><code>docker network rm NETWORK_NAME</code></p>
+<pre><code>docker network ls</code></pre>
+<h2 id="Delete-a-network">Delete a network<a class="anchor-link" href="#Delete-a-network">¶</a></h2>
+<pre><code>docker network rm NETWORK_NAME</code></pre>
 <p><strong>Remove all unused networks</strong></p>
-<pre><code>Linux
-docker network prune</code></pre>
+<pre><code>docker network prune</code></pre>
 <h2 id="Connect-/-disconnect-a-container-from-a-network">Connect / disconnect a container from a network<a class="anchor-link" href="#Connect-/-disconnect-a-container-from-a-network">¶</a></h2><p><strong>Connect</strong></p>
-<pre><code>Linux
-docker network connect NETWORK_NAME CONTAINER_NAME</code></pre>
+<pre><code>docker network connect NETWORK_NAME CONTAINER_NAME</code></pre>
 <p><strong>Disconnect</strong></p>
-<pre><code>Linux
-docker network disconnect NETWORK_NAME CONTAINER_NAME</code></pre>
+<pre><code>docker network disconnect NETWORK_NAME CONTAINER_NAME</code></pre>
 </div>
 </div>
 </div>
@@ -1434,8 +1392,14 @@ docker network disconnect NETWORK_NAME CONTAINER_NAME</code></pre>
 <div class="text_cell_render border-box-sizing rendered_html">
 <hr />
 <p>Made with ❤ by Javid Lakha for the Harvard AC295 / CSCI E-115 students. Please send suggestions and corrections to <a href="mailto:javid@hey.com">javid@hey.com</a>.</p>
-<p><img src="https://static.projects.iq.harvard.edu/files/styles/os_files_medium/public/iacs2/files/logo.png?m=1590602276&amp;itok=FWS9LBKk" /></p>
-<p>Version 1.1.1</p>
+<p><img alt="Harvard Institute for Applied Computational Science logo" src="https://static.projects.iq.harvard.edu/files/styles/os_files_medium/public/iacs2/files/logo.png" style="float: center; padding-right: 10px; width: 450px" /></p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Version 1.1.2</p>
 </div>
 </div>
 </div>
