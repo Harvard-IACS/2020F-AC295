@@ -1,6 +1,6 @@
 Title: Schedule
 Slug: schedule
-Date: 2020-09-27
+Date: 2020-10-02
 
 
 |Week|Lecture (Tuesday)|Lecture (Thursday)|Assignment (R:release - D:due)|
@@ -10,7 +10,7 @@ Date: 2020-09-27
 |3|[Lecture 3: Kubernetes]({filename}/lectures/lecture3/index.md)|[Reading Discussion 2]({filename}/readings/reading2/index.md)|R:EX2 - D:EX1|
 |4|[Lecture 4: Dask]({filename}/lectures/lecture4/index.md)|[Reading Discussion 3]({filename}/readings/reading3/index.md)|R:EX3 - D:EX2|
 |5|Practicum 1: End to end art search engine|Practicum 1|No assignment|
-|6|Lecture 5: Intro to Transfer Learning: basics and CNNs review|Reading Discussion 4|R:EX4 - D:EX3|
+|6|Lecture 5: Intro to Transfer Learning: basics and CNNs review|[Reading Discussion 4]({filename}/readings/reading4/index.md)|R:EX4 - D:EX3|
 |7|Lecture 6: Transfer Learning for Images and SOTA Models|Reading Discussion 5|R:EX5 - D:EX4|
 |8|Lecture 7: Language Models and Transfer Learning for Text|Reading Discussion 6|R:EX6 - D:EX5|
 |9|Lecture 8: Attention and Transformers|Reading Discussion 7|R:EX7 - D:EX6|
