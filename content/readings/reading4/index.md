@@ -12,7 +12,9 @@ Tags: Transfer Learning
 
 - [Transfer Learning Tutorial Tensorflow](https://www.tensorflow.org/tutorials/images/transfer_learning)
 
-- [Neural Style Transfer](https://blog.tensorflow.org/2018/08/neural-style-transfer-creating-art-with-deep-learning.html)
+- [Image Classification using Features Extracted by Transfer Learning in Keras, Part 1,2,3 and 4](https://www.alibabacloud.com/blog/part-1-image-classification-using-features-extracted-by-transfer-learning-in-keras_595289?spm=a2c65.11461447.0.0.30bea7a5b6B51K) 
+
+- [Transfer learning and fine-tuning](https://www.tensorflow.org/tutorials/images/transfer_learning) 
 
 
 #### Research  
@@ -21,11 +23,11 @@ Tags: Transfer Learning
 
 - [How transferable are features in deep neural networks?](https://arxiv.org/pdf/1411.1792.pdf)
 
-- [Domain-Adversarial Training of Neural Networks](https://arxiv.org/abs/1505.07818)
+- [A Study on CNN Transfer Learning for Image Classification](https://www.researchgate.net/publication/325803364_A_Study_on_CNN_Transfer_Learning_for_Image_Classification)
 
-- [Cycle-Consistent Adversarial Domain Adaptation](http://proceedings.mlr.press/v80/hoffman18a.html)
+- [What makes ImageNet good for transfer learning?](https://arxiv.org/pdf/1608.08614.pdf)
 
-- [Unified Deep Supervised Domain Adaptation and Generalization](http://vision.csee.wvu.edu/~motiian/papers/CCSA.pdf)
+- [An embarrassingly simple approach to zero-shot learning](http://proceedings.mlr.press/v37/romera-paredes15.pdf)
 
 
 <br>
