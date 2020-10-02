@@ -10,8 +10,6 @@ Tags: Transfer Learning
 #### Expository	
 - [Transfer Learning using Mobilenet and Keras](https://towardsdatascience.com/transfer-learning-using-mobilenet-and-keras-c75daf7ff299)
 
-- [Transfer Learning Tutorial Tensorflow](https://www.tensorflow.org/tutorials/images/transfer_learning)
-
 - [Image Classification using Features Extracted by Transfer Learning in Keras, Part 1,2,3 and 4](https://www.alibabacloud.com/blog/part-1-image-classification-using-features-extracted-by-transfer-learning-in-keras_595289?spm=a2c65.11461447.0.0.30bea7a5b6B51K) 
 
 - [Transfer learning and fine-tuning](https://www.tensorflow.org/tutorials/images/transfer_learning) 
