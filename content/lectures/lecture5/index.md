@@ -1,6 +1,6 @@
 Title: Lecture 5: Transfer Learning
 Category: lectures
-Date: 2020-09-22
+Date: 2020-10-06
 Author: Rashmi Banthia
 Slug: lecture5
 Tags: Transfer Learning, CNN
