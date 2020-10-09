@@ -1,4 +1,4 @@
-Title: Reading Discussion 4
+Title: Reading Discussion 5
 Category: readings
 Date: 2020-10-09
 Author: Pavlos Protopapas
@@ -32,7 +32,7 @@ Tags: Transfer Learning
 
 - [Adversarially Robust Transfer Learning](https://openreview.net/pdf?id=ryebG04YvB)
 
- [Domain-Adversarial Training of Neural Networks](.1792.pdf)
+- [Domain-Adversarial Training of Neural Networks](.1792.pdf)
 
 - [Cycle-Consistent Adversarial Domain Adaptation](http://proceedings.mlr.press/v80/hoffman18a.html)
 
