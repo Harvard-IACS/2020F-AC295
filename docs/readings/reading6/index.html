@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="description"
+      content="Fall 2020 - Harvard University, Institute for Applied Computational Science. Reading Discussion 6"
+    />
+    <meta name="author" content="Andrea Porelli" />
+<meta
+  name="keywords"
+  content="Transfer Learning"
+/>
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto:300,400,700"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="../../style/tipuesearch/tipuesearch.css"
+    />
+
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="../../style/images/favicon.ico"
+    />
+    <link rel="stylesheet" href="../../style/css/iacs.css" />
+
+    <title>Harvard AC295 | Reading Discussion 6</title>
+
+    <style>
+      .navbar {
+        background-color: #6996A0
+      }
+    </style>
+  </head>
+  <body>
+<nav class="navbar navbar-dark navbar-expand-md">
+  <div class="container">
+    <a class="navbar-brand" href="../..">
+      <img
+        class="navbar-brand-logo"
+        src="../../style/images/logo.png"
+      />
+      <h3 class="course-title">AC295</h3>
+    </a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarsDefault"
+      aria-controls="navbarsDefault"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsDefault">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="../../pages/syllabus.html">Syllabus</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../../pages/calendars.html">Calendars</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../../pages/schedule.html">Schedule</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../../pages/materials.html">Materials</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../../pages/projects.html">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../../pages/faq.html">FAQ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../../pages/resources.html">Resources</a>
+        </li>
+        <form
+          class="form-inline my-2"
+          action="../../search.html"
+          onsubmit="return validateForm(this.elements['q'].value);"
+        >
+          <div class="input-group input-group-sm">
+            <input
+              class="form-control"
+              type="text"
+              name="q"
+              placeholder="Search Topic"
+            />
+            <div class="input-group-append">
+              <button class="btn btn-default" type="submit">
+                <i class="fas fa-search"></i>
+              </button>
+            </div>
+          </div>
+        </form>
+      </ul>
+    </div>
+    <!-- .collapse navbar-collapse -->
+  </div>
+  <!-- .container -->
+</nav>
+    <main id="content" class="container">
+ <h1>Reading Discussion 6</h1>
+<p>
+  Key Word(s):   <a href="../../pages/materials.html#Transfer Learning">Transfer Learning</a
+  > </p>
+ <br />
+<hr />
+ <h2>Selected Readings</h2>
+<ul>
+<li>
+<h1>Expository</h1>
+<ul>
+<li>Sebastian Ruder: <a href="https://thegradient.pub/nlp-imagenet/">NLP's ImageNet moment has arrived</a>.</li>
+<li>Jay Alammar: <a href="http://jalammar.github.io/illustrated-word2vec/">The Illustrated Word2Vec</a>. Visual introduction to word embeddings, language models, bags of words and skip grams.</li>
+<li>Chris McCormick's <a href="http://mccormickml.com/2016/04/19/word2vec-tutorial-the-skip-gram-model/">tutorial</a> on the Word2Vec skip-gram model and <a href="http://mccormickml.com/2018/06/15/applying-word2vec-to-recommenders-and-advertising/">article</a> on its application to recommenders.</li>
+<li>
+<p><a href="https://web.stanford.edu/~jurafsky/slp3/3.pdf">Jurafsky and Martin (2019), 'N-gram Language Models'</a>, §3.1 (Ngrams), §3.2 (Evaluating Language Models), and §3.3 (Generalization and Zeros). (The other sections are interesting too, but tangential to this course.)</p>
+</li>
+<li>
+<p>Mihail Eric:<a href="https://www.mihaileric.com/posts/deep-contextualized-word-representations-elmo"> Deep Contextualized Word Representations with ELMo</a></p>
+</li>
+<li>
+<p>FastAI's 'code-first' lectures on <a href="https://www.youtube.com/watch?v=PNNHaQUQqW8&amp;list=PLtmWHNX-gukKocXQOkQjuVxglSDYWsSh9">language modelling</a> and <a href="https://www.youtube.com/watch?v=5gCQvuznKn0&amp;list=PLtmWHNX-gukKocXQOkQjuVxglSDYWsSh9">transfer learning for NLP</a> (2019 course).</p>
+</li>
+<li><a href="https://thegradient.pub/understanding-evaluation-metrics-for-language-models/">Evaluation Metrics for Language Modelling</a>. An introduction to perplexity, bits-per-character, and cross entropy.</li>
+<li>Sebastian Ruder: <a href="https://ruder.io/state-of-transfer-learning-in-nlp/">The State of Transfer Learning in NLP</a> (blog post) and <a href="https://www.youtube.com/watch?v=hNPwRPg9BrQ&amp;list=PLBmcuObd5An4UC6jvK_-eSl6jCvP1gwXc">Transfer Learning in Open-Source Natural Language Processing</a> (conference presentation).</li>
+<li><a href="https://nlpprogress.com/">Tracking Progress in Natural Language Processing</a>.</li>
+</ul>
+</li>
+</ul>
+<p><br></p>
+<ul>
+<li>
+<h1>Use Cases</h1>
+<ul>
+<li><a href="https://projector.tensorflow.org/">TensorFlow Embedding Projector</a>. An excellent tool to visualise the Word2Vec or your own embeddings in 2-3 dimensions. Projection is done using either <a href="https://github.com/cs109/2015/blob/master/Lectures/09-ClassificationPCA.pdf">PCA</a>, <a href="https://www.jmlr.org/papers/volume9/vandermaaten08a/vandermaaten08a.pdf">t-SNE</a>, or <a href="https://pair-code.github.io/understanding-umap/">UMAP</a>.</li>
+<li><a href="https://towardsdatascience.com/using-word2vec-for-music-recommendations-bb9649ac2484">Using Word2vec for Music Recommendations</a>.</li>
+</ul>
+</li>
+</ul>
+<p><br> </p>
+<ul>
+<li>
+<h1>Research</h1>
+<ul>
+<li><a href="https://arxiv.org/abs/1301.3781">Mikolov et al (2013a), 'Efficient Estimation of Word Representations in Vector Space'</a>.  </li>
+<li><a href="https://arxiv.org/abs/1310.4546">Mikolov et al (2013b), 'Distributed Representations of Words and Phrases and their Compositionality'</a>.  </li>
+<li><a href="https://nlp.stanford.edu/projects/glove/">Pennington et al (2014), 'GLoVe: Global Vectors for Word Representation'</a>. </li>
+<li><a href="https://arxiv.org/pdf/1508.06615.pdf">Y. Kim et al 2015, Character-Aware Neural Language Models</a></li>
+<li><a href="https://arxiv.org/abs/1809.10040">K. W. Zhang and S. Bowman (2019), More than Syntax</a></li>
+<li><a href="https://arxiv.org/pdf/1801.06146.pdf">J. Howard and S. Ruder, 2018, Universal Language Model Fine-tuning for Text Classification</a></li>
+<li><a href="https://arxiv.org/abs/1802.05365">Peters et al (2018), 'Deep contextualized word representations'</a>. </li>
+<li><a href="https://arxiv.org/abs/1906.08237">Yang et al (2019), 'XLNet: Generalized Autoregressive Pretraining for Language Understanding'</a>.     </li>
+<li><a href="https://arxiv.org/pdf/1708.00107.pdf">McCann et al, 2018, Learned in Translation: Contextualized Word Vectors</a></li>
+</ul>
+</li>
+</ul>
+<p><br>
+* Next presentations, select from Research or Use Case</p>     </main>
+
+<footer class="footer">
+  <div class="container">
+    <span class="text-muted">Copyright 2020 &copy;
+      <a class="text-muted" href="https://iacs.seas.harvard.edu/">Institute for Applied Computational Science</a>
+    </span>
+  </div>
+</footer>     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+      integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
