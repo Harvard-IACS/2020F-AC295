@@ -1,6 +1,6 @@
 Title: Reading Discussion 6
 Category: readings
-Date: 2020-10-09
+Date: 2020-10-15
 Author: Pavlos Protopapas
 Slug: reading6
 Tags: Transfer Learning
