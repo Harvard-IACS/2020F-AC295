@@ -13,7 +13,7 @@ Tags: Distillation, Compression
 - [Knowledge Distillation](https://medium.com/neuralmachine/knowledge-distillation-dc241d7c2322)
 - [An Overview of Model Compression Techniques for Deep Learning in Space](https://medium.com/gsi-technology/an-overview-of-model-compression-techniques-for-deep-learning-in-space-3fd8d4ce84e5)
 - [Deep Learning - Model Optimization and Compression: Simplified](https://towardsdatascience.com/machine-learning-models-compression-and-quantization-simplified-a302ddf326f2)
-- [Distillation of Knoweledge in Neural Networks](https://towardsdatascience.com/distillation-of-knowledge-in-neural-networks-cc02f79698b6)
+- [Distillation of Knowledge in Neural Networks](https://towardsdatascience.com/distillation-of-knowledge-in-neural-networks-cc02f79698b6)
 
  
 - # Research
