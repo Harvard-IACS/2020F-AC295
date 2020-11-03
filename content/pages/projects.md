@@ -40,7 +40,7 @@ The project consists of several milestones that need to be submitted on the spec
 |Milestone|Assignment|Due date|
 |-----|-----|-----|
 |1|Project proposal and detailed Scope of Work (SOW)|10/29/2020|
-|2|Reviewed SOW and Kick Off|11/17/2020|
+|2|Reviewed SOW and Kick Off|11/20/2020|
 |3|Mid Project Review and Testing|12/03/2020|
 |4|Final Projects Presentations|12/11/2020|
 
