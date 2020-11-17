@@ -9,9 +9,13 @@
     />
     <meta
       name="description"
-      content="Fall 2020 - Harvard University, Institute for Applied Computational Science. "
+      content="Fall 2020 - Harvard University, Institute for Applied Computational Science. Lecture 10: Introduction and Overview of Viz for Deep Models: lime and shapley"
     />
     <meta name="author" content="Andrea Porelli" />
+<meta
+  name="keywords"
+  content="Lime and Shapley"
+/>
 
     <!-- Bootstrap CSS -->
     <link
@@ -39,17 +43,17 @@
 
     <link
       rel="stylesheet"
-      href="../style/tipuesearch/tipuesearch.css"
+      href="../../style/tipuesearch/tipuesearch.css"
     />
 
     <link
       rel="shortcut icon"
       type="image/x-icon"
-      href="../style/images/favicon.ico"
+      href="../../style/images/favicon.ico"
     />
-    <link rel="stylesheet" href="../style/css/iacs.css" />
+    <link rel="stylesheet" href="../../style/css/iacs.css" />
 
-    <title>Harvard AC295 | Schedule</title>
+    <title>Harvard AC295 | Lecture 10: Introduction and Overview of Viz for Deep Models: lime and shapley</title>
 
     <style>
       .navbar {
@@ -60,10 +64,10 @@
   <body>
 <nav class="navbar navbar-dark navbar-expand-md">
   <div class="container">
-    <a class="navbar-brand" href="..">
+    <a class="navbar-brand" href="../..">
       <img
         class="navbar-brand-logo"
-        src="../style/images/logo.png"
+        src="../../style/images/logo.png"
       />
       <h3 class="course-title">AC295</h3>
     </a>
@@ -82,29 +86,29 @@
     <div class="collapse navbar-collapse" id="navbarsDefault">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link" href="../pages/syllabus.html">Syllabus</a>
+          <a class="nav-link" href="../../pages/syllabus.html">Syllabus</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="../pages/calendars.html">Calendars</a>
+          <a class="nav-link" href="../../pages/calendars.html">Calendars</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="../pages/schedule.html">Schedule</a>
+          <a class="nav-link" href="../../pages/schedule.html">Schedule</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="../pages/materials.html">Materials</a>
+          <a class="nav-link" href="../../pages/materials.html">Materials</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="../pages/projects.html">Projects</a>
+          <a class="nav-link" href="../../pages/projects.html">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="../pages/faq.html">FAQ</a>
+          <a class="nav-link" href="../../pages/faq.html">FAQ</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="../pages/resources.html">Resources</a>
+          <a class="nav-link" href="../../pages/resources.html">Resources</a>
         </li>
         <form
           class="form-inline my-2"
-          action="../search.html"
+          action="../../search.html"
           onsubmit="return validateForm(this.elements['q'].value);"
         >
           <div class="input-group input-group-sm">
@@ -128,112 +132,16 @@
   <!-- .container -->
 </nav>
     <main id="content" class="container">
-  <h1>Schedule</h1>
-  <br />
-  <hr />
-  <table>
-<thead>
-<tr>
-<th>Week</th>
-<th>Lecture (Tuesday)</th>
-<th>Lecture (Thursday)</th>
-<th>Assignment (R:release - D:due)</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1</td>
-<td>No Class</td>
-<td><a href="../lectures/lecture1/">Lecture 1: Introduction: Virtual Enviroments and Virtual Boxes</a></td>
-<td>No assignment</td>
-</tr>
-<tr>
-<td>2</td>
-<td><a href="../lectures/lecture2/">Lecture 2: Containers</a></td>
-<td><a href="../readings/reading1/">Reading Discussion 1</a></td>
-<td>R:EX1</td>
-</tr>
-<tr>
-<td>3</td>
-<td><a href="../lectures/lecture3/">Lecture 3: Kubernetes</a></td>
-<td><a href="../readings/reading2/">Reading Discussion 2</a></td>
-<td>R:EX2 - D:EX1</td>
-</tr>
-<tr>
-<td>4</td>
-<td><a href="../lectures/lecture4/">Lecture 4: Dask</a></td>
-<td><a href="../readings/reading3/">Reading Discussion 3</a></td>
-<td>R:EX3 - D:EX2</td>
-</tr>
-<tr>
-<td>5</td>
-<td>Practicum 1: End to end art search engine</td>
-<td>Practicum 1</td>
-<td>No assignment</td>
-</tr>
-<tr>
-<td>6</td>
-<td><a href="../lectures/lecture5/">Lecture 5: Intro to Transfer Learning: basics and CNNs review</a></td>
-<td><a href="../readings/reading4/">Reading Discussion 4</a></td>
-<td>R:EX4 - D:EX3</td>
-</tr>
-<tr>
-<td>7</td>
-<td><a href="../lectures/lecture6/">Lecture 6: Transfer Learning for Images and SOTA Models</a></td>
-<td><a href="../readings/reading5/">Reading Discussion 5</a></td>
-<td>R:EX5 - D:EX4</td>
-</tr>
-<tr>
-<td>8</td>
-<td><a href="../lectures/lecture7/">Lecture 7: Language Models and Transfer Learning for Text</a></td>
-<td><a href="../readings/reading6/">Reading Discussion 6</a></td>
-<td>R:EX6 - D:EX5</td>
-</tr>
-<tr>
-<td>9</td>
-<td><a href="../lectures/lecture8/">Lecture 8: Attention and Transformers</a></td>
-<td><a href="../readings/reading7/">Reading Discussion 7</a></td>
-<td>R:EX7 - D:EX6</td>
-</tr>
-<tr>
-<td>10</td>
-<td><a href="../lectures/lecture9/">Lecture 9: Distillation and Compression</a></td>
-<td><a href="../readings/reading8/">Reading Discussion 8</a></td>
-<td>R:EX8 - D:EX7</td>
-</tr>
-<tr>
-<td>11</td>
-<td>Practicum 2</td>
-<td>Practicum 2</td>
-<td>D:EX8</td>
-</tr>
-<tr>
-<td>12</td>
-<td><a href="../lectures/lecture10/">Lecture 10: Introduction and Overview of Viz for Deep Models: lime and shapley</a></td>
-<td>Lecture 11: CNNs for Image Data, Activation Maximization and Saliency Maps</td>
-<td>No assignment</td>
-</tr>
-<tr>
-<td>13</td>
-<td>Lecture 12: Attention for Debugging Language Models</td>
-<td>No Class: Thanksgiving</td>
-<td>No assignment</td>
-</tr>
-<tr>
-<td>14</td>
-<td>Final Project</td>
-<td>Final Project</td>
-<td>No assignment</td>
-</tr>
-<tr>
-<td>14</td>
-<td>Final Project</td>
-<td>Final Project Presentation</td>
-<td>No assignment</td>
-</tr>
-</tbody>
-</table>
-    </main>
+ <h1>Lecture 10: Introduction and Overview of Viz for Deep Models: lime and shapley</h1>
+<p>
+  Key Word(s):   <a href="../../pages/materials.html#Lime and Shapley">Lime and Shapley</a
+  > </p>
+ <br />
+<hr />
+ <h2>Slides</h2>
+<ul>
+<li><a href="../../lectures/lecture10/presentation/lecture10.pdf">Lecture 10: Introduction and Overview of Viz for Deep Models: lime and shapley    | PDF</a> </li>
+</ul>     </main>
 
 <footer class="footer">
   <div class="container">
