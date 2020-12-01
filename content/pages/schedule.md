@@ -1,6 +1,6 @@
 Title: Schedule
 Slug: schedule
-Date: 2020-11-24
+Date: 2020-12-01
 
 
 |Week|Lecture (Tuesday)|Lecture (Thursday)|Assignment (R:release - D:due)|
@@ -17,6 +17,6 @@ Date: 2020-11-24
 |10|[Lecture 9: Distillation and Compression]({filename}/lectures/lecture9/index.md)|[Reading Discussion 8]({filename}/readings/reading8/index.md)|R:EX8 - D:EX7|
 |11|Practicum 2|Practicum 2|D:EX8|
 |12|[Lecture 10: Introduction and Overview of Viz for Deep Models: lime and shapley]({filename}/lectures/lecture10/index.md)|[Lecture 11: CNNs for Image Data, Activation Maximization and Saliency Maps]({filename}/lectures/lecture11/index.md)|No assignment|
-|13|Lecture 12: Attention for Debugging Language Models|No Class: Thanksgiving|No assignment|
+|13|[Lecture 12: Attention for Debugging Language Models]({filename}/lectures/lecture12/index.md)|No Class: Thanksgiving|No assignment|
 |14|Final Project|Final Project|No assignment|
 |14|Final Project|Final Project Presentation|No assignment|
