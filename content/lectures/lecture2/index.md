@@ -11,8 +11,11 @@ Tags:Containers, Docker
 - [Lecture 2: Virtual Environments, Virtual Machines, and Containers | PPTX]({attach}presentation/lecture2.pptx)
 
 ## Demo 
-- [Demo 1: Getting started with dockers]({filename}demos1/lec2_demo_getstart.ipynb) 
-- [Demo 2: Web-db dockerized]({filename}demos2/lec2_demo_webdb.ipynb)
+<!-- - [Demo 1: Getting started with dockers]({filename}demos1/lec2_demo_getstart.ipynb) 
+- [Demo 2: Web-db dockerized]({filename}demos2/lec2_demo_webdb.ipynb) -->
+- [Demo 1: Getting started with dockers]({filename}demos1) 
+- [Demo 2: Web-db dockerized]({filename}demos2)
+
 
 ## Files 
 - [syllabus.txt]({attach}demos2/syllabus.txt)
